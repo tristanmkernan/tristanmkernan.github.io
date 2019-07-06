@@ -1,16 +1,56 @@
 import React from "react";
 import ProjectListItem from "./ProjectListItem";
 
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+
+import OTBPImg from "./assets/img/otbp.png";
+
 const projects = [
   {
-    img: "",
-    name: "",
-    date: "",
-    copy: "",
+    image: OTBPImg,
+    name: "Off the Beaten Path",
+    date: "Spring 2019",
+    copy:
+      "Personalized geocaching. Rewrite of previous project by same name with more features and hosting.",
     tags: [
       {
-        name: "",
-        color: ""
+        name: "Flask",
+        color: "is-info"
+      },
+      {
+        name: "Swagger",
+        color: "is-info"
+      },
+      {
+        name: "SQLite",
+        color: "is-info"
+      },
+      {
+        name: "Angular.io",
+        color: "is-info"
+      },
+      {
+        name: "Material",
+        color: "is-info"
+      },
+      {
+        name: "Leaflet",
+        color: "is-info"
+      },
+      {
+        name: "Docker",
+        color: "is-info"
+      }
+    ],
+    links: [
+      {
+        icon: faGithub,
+        url: "https://github.com/off-the-beaten-path"
+      },
+      {
+        icon: faExternalLinkAlt,
+        url: "https://otbp.tmk.name/"
       }
     ]
   }

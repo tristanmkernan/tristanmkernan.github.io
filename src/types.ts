@@ -1,12 +1,11 @@
 export type Link = {
   url: string;
-  name: string;
+  icon: any;
 };
 
 export type Tag = {
   name: string;
   color: string;
-  links: Link[];
 };
 
 export type Project = {
@@ -15,4 +14,5 @@ export type Project = {
   date: string;
   copy: string;
   tags: Tag[];
+  links: Link[];
 };

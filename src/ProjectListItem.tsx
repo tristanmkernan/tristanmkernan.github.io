@@ -1,12 +1,13 @@
 import React from "react";
 import { Project, Tag } from "./types";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 type TagProps = {
   tag: Tag;
 };
 
-const TagItem: React.FC<TagProps> = (props: TagProps) => {
-  return <span className="tag is-info">Flask</span>;
+const TagItem: React.FC<TagProps> = ({ tag }: TagProps) => {
+  return <span className={`tag ${tag.color}`}>{tag.name}</span>;
 };
 
 type Props = {
@@ -29,26 +30,22 @@ const ProjectListItem: React.FC<Props> = ({ project }: Props) => {
             <br />
             {project.copy}
             <br />
-            {project.tags.map(tag => (
-              <TagItem tag={tag} />
-            ))}
+            <div className="tags">
+              {project.tags.map(tag => (
+                <TagItem tag={tag} />
+              ))}
+            </div>
           </p>
         </div>
         <nav className="level is-mobile">
           <div className="level-left">
-            <a
-              className="level-item"
-              href="https://github.com/off-the-beaten-path"
-            >
-              <span className="icon is-small">
-                <i className="fab fa-github"></i>
-              </span>
-            </a>
-            <a className="level-item" href="https://otbp.tmk.name/">
-              <span className="icon is-small">
-                <i className="fas fa-external-link-alt"></i>
-              </span>
-            </a>
+            {project.links.map(link => (
+              <a className="level-item" href={link.url}>
+                <span className="icon is-small">
+                  <FontAwesomeIcon icon={link.icon} />
+                </span>
+              </a>
+            ))}
           </div>
         </nav>
       </div>
