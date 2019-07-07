@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faIdCard,
   faPaperPlane,
-  faChevronRight
+  faChevronRight,
+  faChevronDown
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -72,18 +73,6 @@ const About: React.FC = () => {
               </article>
             </div>
             <div className="tile is-parent is-vertical">
-              <article className="tile is-child notification is-success">
-                <p className="title">Projects</p>
-                <p className="subtitle">Tour the projects I've worked on.</p>
-                <p className="subtitle">
-                  <a className="button is-light" id="projects-visit-btn">
-                    <span>Visit</span>
-                    <span className="icon">
-                      <FontAwesomeIcon icon={faChevronRight} />
-                    </span>
-                  </a>
-                </p>
-              </article>
               <article className="tile is-child notification is-primary">
                 <p className="title">Blog</p>
                 <p className="subtitle">Explore technology with me.</p>
@@ -104,6 +93,18 @@ const About: React.FC = () => {
                     <span>Coming Soon</span>
                     <span className="icon">
                       <FontAwesomeIcon icon={faChevronRight} />
+                    </span>
+                  </a>
+                </p>
+              </article>
+              <article className="tile is-child notification is-success">
+                <p className="title">Projects</p>
+                <p className="subtitle">Tour the projects I've worked on.</p>
+                <p className="subtitle">
+                  <a className="button is-light" id="projects-visit-btn">
+                    <span>Explore</span>
+                    <span className="icon">
+                      <FontAwesomeIcon icon={faChevronDown} />
                     </span>
                   </a>
                 </p>
