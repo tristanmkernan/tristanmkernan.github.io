@@ -25,22 +25,22 @@ const ProjectListItem: React.FC<Props> = ({ project }: Props) => {
       <div className="media-content">
         <div className="content">
           <p>
-            <strong>{project.name}</strong>
-            <small>{project.date}</small>
+            <strong>{project.name}</strong> <small>{project.date}</small>
             <br />
             {project.copy}
-            <br />
-            <div className="tags">
-              {project.tags.map(tag => (
-                <TagItem tag={tag} />
-              ))}
-            </div>
           </p>
+        </div>
+        <div className="level is-mobile">
+          <div className="tags">
+            {project.tags.map(tag => (
+              <TagItem key={tag.name} tag={tag} />
+            ))}
+          </div>
         </div>
         <nav className="level is-mobile">
           <div className="level-left">
             {project.links.map(link => (
-              <a className="level-item" href={link.url}>
+              <a className="level-item" key={link.url} href={link.url}>
                 <span className="icon is-small">
                   <FontAwesomeIcon icon={link.icon} />
                 </span>

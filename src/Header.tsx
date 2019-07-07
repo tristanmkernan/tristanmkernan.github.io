@@ -1,5 +1,7 @@
 import React from "react";
 
+import HeaderImg from "./assets/img/header.png";
+
 const projects = [
   {
     url: "https://bin.tmk.name/",
@@ -24,7 +26,7 @@ const Header: React.FC = () => {
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
         <a className="navbar-item" href="https://bulma.io">
-          <img src="img/header.png" />
+          <img src={HeaderImg} />
         </a>
 
         <a
