@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3377ba85.chunk.css",
+    "main.js": "/static/js/main.7676978a.chunk.js",
+    "main.js.map": "/static/js/main.7676978a.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.11623bd8.chunk.css": "/static/css/2.11623bd8.chunk.css",
+    "static/js/2.3424745b.chunk.js": "/static/js/2.3424745b.chunk.js",
+    "static/js/2.3424745b.chunk.js.map": "/static/js/2.3424745b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.44e5dce744c474f35951a07fb5f04d76.js": "/precache-manifest.44e5dce744c474f35951a07fb5f04d76.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.11623bd8.chunk.css.map": "/static/css/2.11623bd8.chunk.css.map",
+    "static/css/main.3377ba85.chunk.css.map": "/static/css/main.3377ba85.chunk.css.map",
+    "static/media/14-sanders-rally.jpg": "/static/media/14-sanders-rally.48dc8acf.jpg",
+    "static/media/aita.png": "/static/media/aita.23a3ec54.png",
+    "static/media/ancientbeast.png": "/static/media/ancientbeast.0a81a977.png",
+    "static/media/dap.jpg": "/static/media/dap.b6e1eafa.jpg",
+    "static/media/graffiti.png": "/static/media/graffiti.ee85f708.png",
+    "static/media/hs.png": "/static/media/hs.c267522f.png",
+    "static/media/libgdx.png": "/static/media/libgdx.baa98cfa.png",
+    "static/media/loopifi.png": "/static/media/loopifi.6cb4c663.png",
+    "static/media/otbp.png": "/static/media/otbp.2c356f87.png",
+    "static/media/pygame.png": "/static/media/pygame.b03f796c.png",
+    "static/media/shield.png": "/static/media/shield.3a34679f.png"
+  }
+}
