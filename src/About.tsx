@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faIdCard,
@@ -33,8 +34,8 @@ const About: React.FC = () => {
 
                 <p className="subtitle">
                   My hobbies include reading old science fiction novels,
-                  programming free and open source software, bodybuilding, and
-                  trying to game on linux.
+                  programming free and open source software, bodybuilding, and{" "}
+                  <s>trying to game on linux</s>.
                 </p>
 
                 <div className="buttons">
@@ -73,6 +74,22 @@ const About: React.FC = () => {
               </article>
             </div>
             <div className="tile is-parent is-vertical">
+              <article className="tile is-child notification is-success">
+                <p className="title">Projects</p>
+                <p className="subtitle">Tour the projects I've worked on.</p>
+                <p className="subtitle">
+                  <Link
+                    to="projects-list"
+                    smooth={false}
+                    className="button is-light"
+                  >
+                    <span>Explore</span>
+                    <span className="icon">
+                      <FontAwesomeIcon icon={faChevronDown} />
+                    </span>
+                  </Link>
+                </p>
+              </article>
               <article className="tile is-child notification is-primary">
                 <p className="title">Blog</p>
                 <p className="subtitle">Explore technology with me.</p>
@@ -93,18 +110,6 @@ const About: React.FC = () => {
                     <span>Coming Soon</span>
                     <span className="icon">
                       <FontAwesomeIcon icon={faChevronRight} />
-                    </span>
-                  </a>
-                </p>
-              </article>
-              <article className="tile is-child notification is-success">
-                <p className="title">Projects</p>
-                <p className="subtitle">Tour the projects I've worked on.</p>
-                <p className="subtitle">
-                  <a className="button is-light" id="projects-visit-btn">
-                    <span>Explore</span>
-                    <span className="icon">
-                      <FontAwesomeIcon icon={faChevronDown} />
                     </span>
                   </a>
                 </p>

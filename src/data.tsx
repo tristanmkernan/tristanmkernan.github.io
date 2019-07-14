@@ -17,6 +17,7 @@ import StreamChainImg from "./assets/img/streamchain.png";
 import DisasterAccountabilityImg from "./assets/img/dap.jpg";
 import PyGameImg from "./assets/img/pygame.png";
 import LibGDXImg from "./assets/img/libgdx.png";
+import DiscordImg from "./assets/img/discord.jpeg";
 
 export const PROJECTS = [
   {
@@ -55,6 +56,40 @@ export const PROJECTS = [
       {
         icon: faExternalLinkAlt,
         url: "https://www.thedopple.com/"
+      }
+    ]
+  },
+  {
+    image: DiscordImg,
+    name: "Discord Bots",
+    date: "Summer 2019",
+    copy: "Is it Wednesday, my dudes?",
+    tags: [
+      {
+        name: "Python",
+        color: "is-info"
+      },
+      {
+        name: "Discord.py",
+        color: "is-info"
+      },
+      {
+        name: "Web Scraping",
+        color: "is-info"
+      },
+      {
+        name: "Docker",
+        color: "is-info"
+      }
+    ],
+    links: [
+      {
+        icon: faGithub,
+        url: "https://github.com/tristanmkernan/wednesday-discord-bot"
+      },
+      {
+        icon: faGithub,
+        url: "https://github.com/tristanmkernan/meme-discord-bot"
       }
     ]
   },
