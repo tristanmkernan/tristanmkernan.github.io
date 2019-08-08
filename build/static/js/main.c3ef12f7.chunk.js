@@ -201,7 +201,7 @@
         B = a(2),
         p = a(25),
         u = a.n(p),
-        f = function() {
+        d = function() {
           return t.a.createElement(
             "section",
             { className: "section" },
@@ -393,7 +393,7 @@
             )
           );
         },
-        d = a(48),
+        f = a(48),
         I = a(28);
       function R() {
         var A = Object(I.a)([
@@ -535,6 +535,10 @@
               {
                 icon: B.a,
                 url: "https://github.com/tristanmkernan/meme-discord-bot"
+              },
+              {
+                icon: B.a,
+                url: "https://github.com/tristanmkernan/crypto-discord-bot"
               }
             ]
           },
@@ -830,7 +834,7 @@
               "section",
               { className: "section", id: "projects-section" },
               t.a.createElement("h2", { className: "title" }, "Projects"),
-              t.a.createElement(d.a, { query: "(min-width: 1200px)" }, function(
+              t.a.createElement(f.a, { query: "(min-width: 1200px)" }, function(
                 A
               ) {
                 return t.a.createElement(
@@ -867,7 +871,7 @@
             "div",
             { className: "container" },
             t.a.createElement(s, null),
-            t.a.createElement(f, null),
+            t.a.createElement(d, null),
             t.a.createElement(oA, null),
             t.a.createElement(E, null)
           );
@@ -888,4 +892,4 @@
   },
   [[51, 1, 2]]
 ]);
-//# sourceMappingURL=main.7676978a.chunk.js.map
+//# sourceMappingURL=main.c3ef12f7.chunk.js.map
