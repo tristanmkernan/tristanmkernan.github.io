@@ -28,7 +28,182 @@ const TAG_TYPE_TO_COLOR = {
   OTHER: "is-info"
 };
 
-const TAG_DATABASE = {};
+const TAG_DATABASE = {
+  ROLES: {
+    PASSION: {
+      name: "Passion Project",
+      color: TAG_TYPE_TO_COLOR.ROLE
+    },
+    INTERNSHIP: {
+      name: "Internship",
+      color: TAG_TYPE_TO_COLOR.ROLE
+    },
+    GIG: {
+      name: "Gig",
+      color: TAG_TYPE_TO_COLOR.ROLE
+    },
+    OPENSOURCE: {
+      name: "Open Source Contributor",
+      color: TAG_TYPE_TO_COLOR.ROLE
+    },
+    HACKATHON: {
+      name: "Hackathon",
+      color: TAG_TYPE_TO_COLOR.ROLE
+    }
+  },
+  BACKEND: {
+    DJANGO: {
+      name: "Django",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    DRF: {
+      name: "Django Rest Framework",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    SQLITE: {
+      name: "SQLite",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    POSTGRESQL: {
+      name: "PostgreSQL",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    PYTHON: {
+      name: "Python",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    FLASK: {
+      name: "Flask",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    SWAGGER: {
+      name: "Swagger",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    CELERY: {
+      name: "Celery",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    MARIADB: {
+      name: "MariaDB",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    MYSQL: {
+      name: "MySQL",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    RQ2: {
+      name: "RQ2",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    EXPRESS_JS: {
+      name: "ExpressJs",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    NGINX: {
+      name: "nginx",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    IPFS: {
+      name: "IPFS",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    MONGO: {
+      name: "MongoDB",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    }
+  },
+  FRONTEND: {
+    REACT: {
+      name: "React",
+      color: TAG_TYPE_TO_COLOR.FRONTEND
+    },
+    ANGULAR: {
+      name: "Angular.io",
+      color: TAG_TYPE_TO_COLOR.FRONTEND
+    },
+    ANGULAR_MATERIAL: {
+      name: "Material",
+      color: TAG_TYPE_TO_COLOR.FRONTEND
+    },
+    LEAFLET: {
+      name: "Leaflet",
+      color: TAG_TYPE_TO_COLOR.FRONTEND
+    },
+    BULMA: {
+      name: "Bulma",
+      color: TAG_TYPE_TO_COLOR.FRONTEND
+    },
+    REDUX: {
+      name: "Redux",
+      color: TAG_TYPE_TO_COLOR.FRONTEND
+    },
+    BOOTSTRAP: {
+      name: "Bootstrap",
+      color: TAG_TYPE_TO_COLOR.FRONTEND
+    },
+    JQUERY: {
+      name: "jQuery",
+      color: TAG_TYPE_TO_COLOR.FRONTEND
+    }
+  },
+  OTHER: {
+    DISCORD: {
+      name: "Discord.py",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    SCRAPING: {
+      name: "Web Scraping",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    PRAW: {
+      name: "PRAW",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    TKINTER: {
+      name: "Tkinter",
+      color: TAG_TYPE_TO_COLOR.OTHER
+    },
+    YOUTUBEDL: {
+      name: "youtube-dl",
+      color: TAG_TYPE_TO_COLOR.OTHER
+    },
+    FFMPEG: {
+      name: "ffmpeg",
+      color: TAG_TYPE_TO_COLOR.OTHER
+    },
+    PHASER: {
+      name: "Phaser",
+      color: TAG_TYPE_TO_COLOR.OTHER
+    },
+    BROWSER_EXTENSION: {
+      name: "Browser Extension",
+      color: TAG_TYPE_TO_COLOR.OTHER
+    },
+    PYGAME: {
+      name: "Pygame",
+      color: TAG_TYPE_TO_COLOR.OTHER
+    },
+    ECS: {
+      name: "ECS",
+      color: TAG_TYPE_TO_COLOR.OTHER
+    },
+    JAVA: {
+      name: "Java",
+      color: TAG_TYPE_TO_COLOR.OTHER
+    },
+    LIBGDX: {
+      name: "libgdx",
+      color: TAG_TYPE_TO_COLOR.OTHER
+    }
+  },
+  INFRA: {
+    DOCKER: {
+      name: "Docker",
+      color: TAG_TYPE_TO_COLOR.INFRA
+    }
+  }
+};
 
 export const PROJECTS = [
   {
@@ -37,30 +212,12 @@ export const PROJECTS = [
     date: "Summer 2019",
     copy: "Monitor your shared bathroom from the comfort of your chair.",
     tags: [
-      {
-        name: "Passion Project",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Django",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Django Rest Framework",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "SQLite",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "React",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Docker",
-        color: TAG_TYPE_TO_COLOR.INFRA
-      }
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.BACKEND.DJANGO,
+      TAG_DATABASE.BACKEND.DRF,
+      TAG_DATABASE.BACKEND.SQLITE,
+      TAG_DATABASE.FRONTEND.REACT,
+      TAG_DATABASE.INFRA.DOCKER
     ],
     links: [
       {
@@ -76,30 +233,12 @@ export const PROJECTS = [
     copy:
       "Stitch fix for children's clothing. Taking the pain out of dressing your children.",
     tags: [
-      {
-        name: "Internship",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Django",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Django Rest Framework",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "PostgreSQL",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "React",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Docker",
-        color: TAG_TYPE_TO_COLOR.INFRA
-      }
+      TAG_DATABASE.ROLES.INTERNSHIP,
+      TAG_DATABASE.BACKEND.DJANGO,
+      TAG_DATABASE.BACKEND.DRF,
+      TAG_DATABASE.BACKEND.POSTGRESQL,
+      TAG_DATABASE.FRONTEND.REACT,
+      TAG_DATABASE.INFRA.DOCKER
     ],
     links: [
       {
@@ -114,30 +253,12 @@ export const PROJECTS = [
     date: "Summer 2019",
     copy: "Is it Wednesday, my dudes?",
     tags: [
-      {
-        name: "Passion Project",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Python",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "SQLite",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Discord.py",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Web Scraping",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Docker",
-        color: TAG_TYPE_TO_COLOR.INFRA
-      }
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.BACKEND.PYTHON,
+      TAG_DATABASE.BACKEND.SQLITE,
+      TAG_DATABASE.OTHER.DISCORD,
+      TAG_DATABASE.OTHER.SCRAPING,
+      TAG_DATABASE.INFRA.DOCKER
     ],
     links: [
       {
@@ -165,38 +286,14 @@ export const PROJECTS = [
     copy:
       "Personalized geocaching. Rewrite of previous project by same name with more features and hosting.",
     tags: [
-      {
-        name: "Passion Project",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Flask",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Swagger",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "SQLite",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Angular.io",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Material",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Leaflet",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Docker",
-        color: TAG_TYPE_TO_COLOR.INFRA
-      }
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.BACKEND.FLASK,
+      TAG_DATABASE.BACKEND.SWAGGER,
+      TAG_DATABASE.BACKEND.SQLITE,
+      TAG_DATABASE.FRONTEND.ANGULAR,
+      TAG_DATABASE.FRONTEND.ANGULAR_MATERIAL,
+      TAG_DATABASE.FRONTEND.LEAFLET,
+      TAG_DATABASE.INFRA.DOCKER
     ],
     links: [
       {
@@ -216,34 +313,13 @@ export const PROJECTS = [
     copy:
       "Actively parses posts from /r/AmItheAsshole and analyzes the data in order to identify if Reddit truly is the asshole.",
     tags: [
-      {
-        name: "Passion Project",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Flask",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "SQLite",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Celery",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "PRAW",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Bulma",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Docker",
-        color: TAG_TYPE_TO_COLOR.INFRA
-      }
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.BACKEND.FLASK,
+      TAG_DATABASE.BACKEND.SQLITE,
+      TAG_DATABASE.BACKEND.CELERY,
+      TAG_DATABASE.OTHER.PRAW,
+      TAG_DATABASE.FRONTEND.BULMA,
+      TAG_DATABASE.INFRA.DOCKER
     ],
     links: [
       {
@@ -262,34 +338,13 @@ export const PROJECTS = [
     date: "Spring 2019",
     copy: "Lead your faction to victory through diplomacy, intrigue, and war.",
     tags: [
-      {
-        name: "Gig",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Flask",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Swagger",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "MariaDB",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Angular.io",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Material",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Docker",
-        color: TAG_TYPE_TO_COLOR.INFRA
-      }
+      TAG_DATABASE.ROLES.GIG,
+      TAG_DATABASE.BACKEND.FLASK,
+      TAG_DATABASE.BACKEND.SWAGGER,
+      TAG_DATABASE.BACKEND.MARIADB,
+      TAG_DATABASE.FRONTEND.ANGULAR,
+      TAG_DATABASE.FRONTEND.ANGULAR_MATERIAL,
+      TAG_DATABASE.INFRA.DOCKER
     ],
     links: []
   },
@@ -300,18 +355,9 @@ export const PROJECTS = [
     copy:
       'Brings the missing "sleep" function of television sets to your computer. In other words, it puts the computer to sleep after a delay. Perfect for late night Netflix or Twitch sessions.',
     tags: [
-      {
-        name: "Passion Project",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Python",
-        color: TAG_TYPE_TO_COLOR.OTHER
-      },
-      {
-        name: "Tkinter",
-        color: TAG_TYPE_TO_COLOR.OTHER
-      }
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.BACKEND.PYTHON,
+      TAG_DATABASE.OTHER.TKINTER
     ],
     links: [
       {
@@ -330,38 +376,14 @@ export const PROJECTS = [
     date: "Fall 2018",
     copy: "Finds and exports smooth-looping segments within a YouTube video.",
     tags: [
-      {
-        name: "Passion Project",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Flask",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "MySQL",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "RQ2",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Bulma",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "youtube-dl",
-        color: TAG_TYPE_TO_COLOR.OTHER
-      },
-      {
-        name: "ffmpeg",
-        color: TAG_TYPE_TO_COLOR.OTHER
-      },
-      {
-        name: "Docker",
-        color: TAG_TYPE_TO_COLOR.INFRA
-      }
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.BACKEND.FLASK,
+      TAG_DATABASE.BACKEND.MYSQL,
+      TAG_DATABASE.BACKEND.RQ2,
+      TAG_DATABASE.FRONTEND.BULMA,
+      TAG_DATABASE.OTHER.YOUTUBEDL,
+      TAG_DATABASE.OTHER.FFMPEG,
+      TAG_DATABASE.INFRA.DOCKER
     ],
     links: [
       {
@@ -381,34 +403,13 @@ export const PROJECTS = [
     copy:
       "A custom forum software for university. Communicate with other students in your courses, manage deadlines, and work collaboratively to achieve academic success.",
     tags: [
-      {
-        name: "Passion Project",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Flask",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "MySQL",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Angular.io",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Redux",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Bootstrap",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Docker",
-        color: TAG_TYPE_TO_COLOR.INFRA
-      }
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.BACKEND.FLASK,
+      TAG_DATABASE.BACKEND.MYSQL,
+      TAG_DATABASE.FRONTEND.ANGULAR,
+      TAG_DATABASE.FRONTEND.REDUX,
+      TAG_DATABASE.FRONTEND.BOOTSTRAP,
+      TAG_DATABASE.INFRA.DOCKER
     ],
     links: [
       {
@@ -423,18 +424,9 @@ export const PROJECTS = [
     date: "Summer 2018",
     copy: "Browser-based, multiplayer tactical chess-like game.",
     tags: [
-      {
-        name: "Open Source Contributor",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "jQuery",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Phaser",
-        color: TAG_TYPE_TO_COLOR.OTHER
-      }
+      TAG_DATABASE.ROLES.OPENSOURCE,
+      TAG_DATABASE.FRONTEND.JQUERY,
+      TAG_DATABASE.OTHER.PHASER
     ],
     links: [
       {
@@ -454,22 +446,10 @@ export const PROJECTS = [
     copy:
       "Still using email to send small files quickly between your phone(s) and computer(s)? Fret no more!",
     tags: [
-      {
-        name: "Passion Project",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Flask",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Bulma",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Docker",
-        color: TAG_TYPE_TO_COLOR.INFRA
-      }
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.BACKEND.FLASK,
+      TAG_DATABASE.FRONTEND.BULMA,
+      TAG_DATABASE.INFRA.DOCKER
     ],
     links: [
       {
@@ -488,18 +468,9 @@ export const PROJECTS = [
     date: "Fall 2017",
     copy: 'For spamming "How long can this go on?"',
     tags: [
-      {
-        name: "Passion Project",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Angular.io",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Web Scraping",
-        color: TAG_TYPE_TO_COLOR.OTHER
-      }
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.FRONTEND.ANGULAR,
+      TAG_DATABASE.OTHER.SCRAPING
     ],
     links: [
       {
@@ -519,30 +490,12 @@ export const PROJECTS = [
     copy:
       "Snapchat, but re-imagined for the web. Graffiti over websites and share with your friends.",
     tags: [
-      {
-        name: "Internship",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Browser Extension",
-        color: TAG_TYPE_TO_COLOR.OTHER
-      },
-      {
-        name: "ExpressJs",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "MySQL",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Angular.io",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Bootstrap",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      }
+      TAG_DATABASE.ROLES.INTERNSHIP,
+      TAG_DATABASE.OTHER.BROWSER_EXTENSION,
+      TAG_DATABASE.BACKEND.EXPRESS_JS,
+      TAG_DATABASE.BACKEND.MYSQL,
+      TAG_DATABASE.FRONTEND.ANGULAR,
+      TAG_DATABASE.FRONTEND.BOOTSTRAP
     ],
     links: []
   },
@@ -552,22 +505,10 @@ export const PROJECTS = [
     date: "Summer to Fall 2017",
     copy: "Consolidated reputation management and survey platform.",
     tags: [
-      {
-        name: "Internship",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Angular.io",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Bootstrap",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Redux",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      }
+      TAG_DATABASE.ROLES.INTERNSHIP,
+      TAG_DATABASE.FRONTEND.ANGULAR,
+      TAG_DATABASE.FRONTEND.BOOTSTRAP,
+      TAG_DATABASE.FRONTEND.REDUX
     ],
     links: []
   },
@@ -577,26 +518,11 @@ export const PROJECTS = [
     date: "Winter 2017",
     copy: "Hackathon project. Stream videos to the blockchain.",
     tags: [
-      {
-        name: "Hackathon",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Flask",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "nginx",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "IPFS",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "MongoDB",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      }
+      TAG_DATABASE.ROLES.HACKATHON,
+      TAG_DATABASE.BACKEND.FLASK,
+      TAG_DATABASE.BACKEND.NGINX,
+      TAG_DATABASE.BACKEND.IPFS,
+      TAG_DATABASE.BACKEND.MONGO
     ],
     links: [
       {
@@ -611,22 +537,9 @@ export const PROJECTS = [
     date: "Summer 2016 to Summer 2017",
     copy: "Bringing accountability to disaster aid relief organizations.",
     tags: [
-      {
-        name: "Internship",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "MySQL",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Angular.io",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      },
-      {
-        name: "Materialize.css",
-        color: TAG_TYPE_TO_COLOR.FRONTEND
-      }
+      TAG_DATABASE.ROLES.INTERNSHIP,
+      TAG_DATABASE.BACKEND.MYSQL,
+      TAG_DATABASE.FRONTEND.ANGULAR
     ],
     links: []
   },
@@ -637,18 +550,9 @@ export const PROJECTS = [
     copy:
       "Live stream your HearthStone arena drafts to your friends and the public.",
     tags: [
-      {
-        name: "Passion Project",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Flask",
-        color: TAG_TYPE_TO_COLOR.BACKEND
-      },
-      {
-        name: "Tkinter",
-        color: TAG_TYPE_TO_COLOR.OTHER
-      }
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.BACKEND.FLASK,
+      TAG_DATABASE.OTHER.TKINTER
     ],
     links: [
       {
@@ -675,18 +579,9 @@ export const PROJECTS = [
     date: "Spring 2016",
     copy: "Totally configurable adventure game.",
     tags: [
-      {
-        name: "Passion Project",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Pygame",
-        color: TAG_TYPE_TO_COLOR.OTHER
-      },
-      {
-        name: "ECS",
-        color: TAG_TYPE_TO_COLOR.OTHER
-      }
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.OTHER.PYGAME,
+      TAG_DATABASE.OTHER.ECS
     ],
     links: [
       {
@@ -702,18 +597,9 @@ export const PROJECTS = [
     copy:
       "Tower defense game in which you can create your own maps to play and share.",
     tags: [
-      {
-        name: "Passion Project",
-        color: TAG_TYPE_TO_COLOR.ROLE
-      },
-      {
-        name: "Java",
-        color: TAG_TYPE_TO_COLOR.OTHER
-      },
-      {
-        name: "libgdx",
-        color: TAG_TYPE_TO_COLOR.OTHER
-      }
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.OTHER.JAVA,
+      TAG_DATABASE.OTHER.LIBGDX
     ],
     links: [
       {
