@@ -23,8 +23,8 @@ const About: React.FC = () => {
                 <p className="subtitle">
                   Hi! I'm a software developer and student, currently studying
                   mathematics and computer science at Rutgers University. I've
-                  been programming for over 5 years, from low level C to large
-                  web applications.
+                  been programming for over 5 years, with a passion for Python
+                  and web applications.
                 </p>
 
                 <p className="subtitle">
@@ -34,8 +34,8 @@ const About: React.FC = () => {
 
                 <p className="subtitle">
                   My hobbies include reading old science fiction novels,
-                  programming free and open source software, bodybuilding, and{" "}
-                  <s>trying to game on linux</s>.
+                  programming free and open source software, birding, and
+                  gaming.
                 </p>
 
                 <div className="buttons">
