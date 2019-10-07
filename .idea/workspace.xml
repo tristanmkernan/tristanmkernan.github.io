@@ -3,33 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9bbe0fd2-984f-45be-8c98-c99a69aafbbd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/precache-manifest.44e5dce744c474f35951a07fb5f04d76.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/2.11623bd8.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/2.11623bd8.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.3377ba85.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.3377ba85.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/2.3424745b.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/2.3424745b.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.7676978a.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.7676978a.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/runtime~main.a8a9905a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/runtime~main.a8a9905a.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/14-sanders-rally.48dc8acf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/aita.23a3ec54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/ancientbeast.0a81a977.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/dap.b6e1eafa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/graffiti.ee85f708.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/hs.c267522f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/libgdx.baa98cfa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/loopifi.6cb4c663.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/otbp.2c356f87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/pygame.b03f796c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/shield.3a34679f.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/data.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,12 +17,6 @@
         <option value="TypeScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>2016-</find>
-      <find>Web Scraping</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
