@@ -18,8 +18,57 @@ import DisasterAccountabilityImg from "./assets/img/dap.jpg";
 import PyGameImg from "./assets/img/pygame.png";
 import LibGDXImg from "./assets/img/libgdx.png";
 import DiscordImg from "./assets/img/discord.jpeg";
+import BathroomImg from "./assets/img/bathroom.jpg";
+
+const TAG_TYPE_TO_COLOR = {
+  FRONTEND: "is-info",
+  BACKEND: "is-warning",
+  INFRA: "is-danger",
+  ROLE: "is-dark",
+  OTHER: "is-info"
+};
+
+const TAG_DATABASE = {};
 
 export const PROJECTS = [
+  {
+    image: BathroomImg,
+    name: "Is the Bathroom Available?",
+    date: "Summer 2019",
+    copy: "Monitor your shared bathroom from the comfort of your chair.",
+    tags: [
+      {
+        name: "Passion Project",
+        color: TAG_TYPE_TO_COLOR.ROLE
+      },
+      {
+        name: "Django",
+        color: TAG_TYPE_TO_COLOR.BACKEND
+      },
+      {
+        name: "Django Rest Framework",
+        color: TAG_TYPE_TO_COLOR.BACKEND
+      },
+      {
+        name: "SQLite",
+        color: TAG_TYPE_TO_COLOR.BACKEND
+      },
+      {
+        name: "React",
+        color: TAG_TYPE_TO_COLOR.FRONTEND
+      },
+      {
+        name: "Docker",
+        color: TAG_TYPE_TO_COLOR.INFRA
+      }
+    ],
+    links: [
+      {
+        icon: faExternalLinkAlt,
+        url: "https://bathroom.tmk.name/"
+      }
+    ]
+  },
   {
     image: DoppleImg,
     name: "Dopple",
@@ -29,27 +78,27 @@ export const PROJECTS = [
     tags: [
       {
         name: "Internship",
-        color: "is-dark"
+        color: TAG_TYPE_TO_COLOR.ROLE
       },
       {
         name: "Django",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "Django Rest Framework",
-        color: "is-info"
-      },
-      {
-        name: "React",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "PostgreSQL",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
+      },
+      {
+        name: "React",
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Docker",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.INFRA
       }
     ],
     links: [
@@ -66,20 +115,28 @@ export const PROJECTS = [
     copy: "Is it Wednesday, my dudes?",
     tags: [
       {
+        name: "Passion Project",
+        color: TAG_TYPE_TO_COLOR.ROLE
+      },
+      {
         name: "Python",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
+      },
+      {
+        name: "SQLite",
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "Discord.py",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "Web Scraping",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "Docker",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.INFRA
       }
     ],
     links: [
@@ -94,6 +151,10 @@ export const PROJECTS = [
       {
         icon: faGithub,
         url: "https://github.com/tristanmkernan/crypto-discord-bot"
+      },
+      {
+        icon: faGithub,
+        url: "https://github.com/tristanmkernan/quote-discord-bot"
       }
     ]
   },
@@ -105,32 +166,36 @@ export const PROJECTS = [
       "Personalized geocaching. Rewrite of previous project by same name with more features and hosting.",
     tags: [
       {
+        name: "Passion Project",
+        color: TAG_TYPE_TO_COLOR.ROLE
+      },
+      {
         name: "Flask",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "Swagger",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "SQLite",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "Angular.io",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Material",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Leaflet",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Docker",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.INFRA
       }
     ],
     links: [
@@ -152,28 +217,32 @@ export const PROJECTS = [
       "Actively parses posts from /r/AmItheAsshole and analyzes the data in order to identify if Reddit truly is the asshole.",
     tags: [
       {
+        name: "Passion Project",
+        color: TAG_TYPE_TO_COLOR.ROLE
+      },
+      {
         name: "Flask",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "SQLite",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "Celery",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "PRAW",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "Bulma",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Docker",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.INFRA
       }
     ],
     links: [
@@ -195,31 +264,31 @@ export const PROJECTS = [
     tags: [
       {
         name: "Gig",
-        color: "is-dark"
+        color: TAG_TYPE_TO_COLOR.ROLE
       },
       {
         name: "Flask",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "Swagger",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "MariaDB",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "Angular.io",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Material",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Docker",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.INFRA
       }
     ],
     links: []
@@ -232,12 +301,16 @@ export const PROJECTS = [
       'Brings the missing "sleep" function of television sets to your computer. In other words, it puts the computer to sleep after a delay. Perfect for late night Netflix or Twitch sessions.',
     tags: [
       {
+        name: "Passion Project",
+        color: TAG_TYPE_TO_COLOR.ROLE
+      },
+      {
         name: "Python",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.OTHER
       },
       {
         name: "Tkinter",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.OTHER
       }
     ],
     links: [
@@ -258,36 +331,36 @@ export const PROJECTS = [
     copy: "Finds and exports smooth-looping segments within a YouTube video.",
     tags: [
       {
-        name: "Open Source Contributor",
-        color: "is-dark"
+        name: "Passion Project",
+        color: TAG_TYPE_TO_COLOR.ROLE
       },
       {
         name: "Flask",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "MySQL",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "RQ2",
-        color: "is-info"
-      },
-      {
-        name: "youtube-dl",
-        color: "is-info"
-      },
-      {
-        name: "ffmpeg",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "Bulma",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.FRONTEND
+      },
+      {
+        name: "youtube-dl",
+        color: TAG_TYPE_TO_COLOR.OTHER
+      },
+      {
+        name: "ffmpeg",
+        color: TAG_TYPE_TO_COLOR.OTHER
       },
       {
         name: "Docker",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.INFRA
       }
     ],
     links: [
@@ -309,28 +382,32 @@ export const PROJECTS = [
       "A custom forum software for university. Communicate with other students in your courses, manage deadlines, and work collaboratively to achieve academic success.",
     tags: [
       {
+        name: "Passion Project",
+        color: TAG_TYPE_TO_COLOR.ROLE
+      },
+      {
         name: "Flask",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "MySQL",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "Angular.io",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Redux",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Bootstrap",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Docker",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.INFRA
       }
     ],
     links: [
@@ -348,15 +425,15 @@ export const PROJECTS = [
     tags: [
       {
         name: "Open Source Contributor",
-        color: "is-dark"
+        color: TAG_TYPE_TO_COLOR.ROLE
       },
       {
         name: "jQuery",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Phaser",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.OTHER
       }
     ],
     links: [
@@ -378,16 +455,20 @@ export const PROJECTS = [
       "Still using email to send small files quickly between your phone(s) and computer(s)? Fret no more!",
     tags: [
       {
+        name: "Passion Project",
+        color: TAG_TYPE_TO_COLOR.ROLE
+      },
+      {
         name: "Flask",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "Bulma",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Docker",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.INFRA
       }
     ],
     links: [
@@ -408,12 +489,16 @@ export const PROJECTS = [
     copy: 'For spamming "How long can this go on?"',
     tags: [
       {
-        name: "Angular",
-        color: "is-info"
+        name: "Passion Project",
+        color: TAG_TYPE_TO_COLOR.ROLE
+      },
+      {
+        name: "Angular.io",
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Web Scraping",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.OTHER
       }
     ],
     links: [
@@ -436,27 +521,27 @@ export const PROJECTS = [
     tags: [
       {
         name: "Internship",
-        color: "is-dark"
+        color: TAG_TYPE_TO_COLOR.ROLE
       },
       {
         name: "Browser Extension",
-        color: "is-info"
-      },
-      {
-        name: "Angular.io",
-        color: "is-info"
-      },
-      {
-        name: "Bootstrap",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.OTHER
       },
       {
         name: "ExpressJs",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "MySQL",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
+      },
+      {
+        name: "Angular.io",
+        color: TAG_TYPE_TO_COLOR.FRONTEND
+      },
+      {
+        name: "Bootstrap",
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       }
     ],
     links: []
@@ -469,19 +554,19 @@ export const PROJECTS = [
     tags: [
       {
         name: "Internship",
-        color: "is-dark"
+        color: TAG_TYPE_TO_COLOR.ROLE
       },
       {
-        name: "Angular",
-        color: "is-info"
+        name: "Angular.io",
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Bootstrap",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       },
       {
         name: "Redux",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       }
     ],
     links: []
@@ -494,23 +579,23 @@ export const PROJECTS = [
     tags: [
       {
         name: "Hackathon",
-        color: "is-dark"
+        color: TAG_TYPE_TO_COLOR.ROLE
       },
       {
         name: "Flask",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "nginx",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "IPFS",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "MongoDB",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       }
     ],
     links: [
@@ -528,19 +613,19 @@ export const PROJECTS = [
     tags: [
       {
         name: "Internship",
-        color: "is-dark"
-      },
-      {
-        name: "Angular",
-        color: "is-info"
-      },
-      {
-        name: "Materialize.css",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.ROLE
       },
       {
         name: "MySQL",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
+      },
+      {
+        name: "Angular.io",
+        color: TAG_TYPE_TO_COLOR.FRONTEND
+      },
+      {
+        name: "Materialize.css",
+        color: TAG_TYPE_TO_COLOR.FRONTEND
       }
     ],
     links: []
@@ -553,12 +638,16 @@ export const PROJECTS = [
       "Live stream your HearthStone arena drafts to your friends and the public.",
     tags: [
       {
+        name: "Passion Project",
+        color: TAG_TYPE_TO_COLOR.ROLE
+      },
+      {
         name: "Flask",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.BACKEND
       },
       {
         name: "Tkinter",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.OTHER
       }
     ],
     links: [
@@ -587,12 +676,16 @@ export const PROJECTS = [
     copy: "Totally configurable adventure game.",
     tags: [
       {
+        name: "Passion Project",
+        color: TAG_TYPE_TO_COLOR.ROLE
+      },
+      {
         name: "Pygame",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.OTHER
       },
       {
         name: "ECS",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.OTHER
       }
     ],
     links: [
@@ -610,12 +703,16 @@ export const PROJECTS = [
       "Tower defense game in which you can create your own maps to play and share.",
     tags: [
       {
+        name: "Passion Project",
+        color: TAG_TYPE_TO_COLOR.ROLE
+      },
+      {
         name: "Java",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.OTHER
       },
       {
         name: "libgdx",
-        color: "is-info"
+        color: TAG_TYPE_TO_COLOR.OTHER
       }
     ],
     links: [
