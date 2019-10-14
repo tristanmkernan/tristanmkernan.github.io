@@ -19,6 +19,7 @@ import PyGameImg from "./assets/img/pygame.png";
 import LibGDXImg from "./assets/img/libgdx.png";
 import DiscordImg from "./assets/img/discord.jpeg";
 import BathroomImg from "./assets/img/bathroom.jpg";
+import ClassicalArtImg from "./assets/img/classical-art.png";
 
 const TAG_TYPE_TO_COLOR = {
   FRONTEND: "is-info",
@@ -195,6 +196,10 @@ const TAG_DATABASE = {
     LIBGDX: {
       name: "libgdx",
       color: TAG_TYPE_TO_COLOR.OTHER
+    },
+    FABRICJS: {
+      name: "FabricJS",
+      color: TAG_TYPE_TO_COLOR.OTHER
     }
   },
   INFRA: {
@@ -206,6 +211,28 @@ const TAG_DATABASE = {
 };
 
 export const PROJECTS = [
+  {
+    image: ClassicalArtImg,
+    name: "Classical Meme Maker",
+    date: "Fall 2019",
+    copy: "Make memes via classical works of art.",
+    tags: [
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.FRONTEND.ANGULAR,
+      TAG_DATABASE.FRONTEND.BOOTSTRAP,
+      TAG_DATABASE.OTHER.FABRICJS
+    ],
+    links: [
+      {
+        icon: faGithub,
+        url: "https://github.com/tristanmkernan/classical-meme-maker"
+      },
+      {
+        icon: faExternalLinkAlt,
+        url: "https://classical-meme.tmk.name/"
+      }
+    ]
+  },
   {
     image: BathroomImg,
     name: "Is the Bathroom Available?",
