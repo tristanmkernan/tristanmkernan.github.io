@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    revision: "5717628574b69c8120794d3380fc7081",
+    revision: "9f1b5ccd2ff4ee967fd249e8fb2b1dba",
     url: "/index.html"
   },
   {
-    revision: "fbbe96f2f34f5ef608a4",
+    revision: "b0ba386643c7838996f3",
     url: "/static/css/2.11623bd8.chunk.css"
   },
   {
-    revision: "dea48816d2e33955d70d",
+    revision: "08db0317cee39cbcd257",
     url: "/static/css/main.3ba64763.chunk.css"
   },
   {
-    revision: "fbbe96f2f34f5ef608a4",
-    url: "/static/js/2.fc80de2f.chunk.js"
+    revision: "b0ba386643c7838996f3",
+    url: "/static/js/2.78f844c8.chunk.js"
   },
   {
-    revision: "dea48816d2e33955d70d",
-    url: "/static/js/main.3527248c.chunk.js"
+    revision: "08db0317cee39cbcd257",
+    url: "/static/js/main.7d58f592.chunk.js"
   },
   {
     revision: "42ac5946195a7306e2a5",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     revision: "e008449e589a01135f839c91279a73aa",
     url: "/static/media/bathroom.e008449e.jpg"
+  },
+  {
+    revision: "374996adc82df35db9b7db929b2898dc",
+    url: "/static/media/classical-art.374996ad.png"
   },
   {
     revision: "b6e1eafa2cd89733fd030e31747e58b1",

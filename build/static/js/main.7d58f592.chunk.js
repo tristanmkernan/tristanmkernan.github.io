@@ -80,11 +80,14 @@
     function(A, e, a) {
       A.exports = a.p + "static/media/bathroom.e008449e.jpg";
     },
+    function(A, e, a) {
+      A.exports = a.p + "static/media/classical-art.374996ad.png";
+    },
     ,
     ,
     ,
     function(A, e, a) {
-      A.exports = a(74);
+      A.exports = a(75);
     },
     ,
     ,
@@ -114,8 +117,8 @@
         n = a.n(t),
         i = a(7),
         r = a.n(i),
-        o = (a(57), a(58), a(59), a(60), a(24)),
-        c = a.n(o),
+        c = (a(58), a(59), a(60), a(61), a(24)),
+        o = a.n(c),
         l = [
           { url: "https://bin.tmk.name/", name: "FileBin" },
           { url: "https://otbp.tmk.name/", name: "OtBP" },
@@ -136,7 +139,7 @@
               n.a.createElement(
                 "a",
                 { className: "navbar-item", href: "https://bulma.io" },
-                n.a.createElement("img", { src: c.a })
+                n.a.createElement("img", { src: o.a })
               ),
               n.a.createElement(
                 "a",
@@ -169,7 +172,7 @@
                   n.a.createElement(
                     "a",
                     { className: "navbar-link" },
-                    "Projects"
+                    "Quick Links"
                   ),
                   n.a.createElement(
                     "div",
@@ -187,8 +190,8 @@
             )
           );
         },
-        E = a(4),
-        s = a(3),
+        s = a(4),
+        E = a(3),
         g = function() {
           return n.a.createElement(
             "footer",
@@ -215,7 +218,7 @@
                 ",\xa0",
                 n.a.createElement("a", { href: "https://bulma.io/" }, "bulma"),
                 " and\xa0",
-                n.a.createElement(E.a, { icon: s.c }),
+                n.a.createElement(s.a, { icon: E.c }),
                 ". The source code is licensed\xa0",
                 n.a.createElement(
                   "a",
@@ -288,7 +291,7 @@
                           n.a.createElement(
                             "span",
                             { className: "icon" },
-                            n.a.createElement(E.a, { icon: R.a })
+                            n.a.createElement(s.a, { icon: R.a })
                           ),
                           n.a.createElement("span", null, "Github")
                         ),
@@ -302,7 +305,7 @@
                           n.a.createElement(
                             "span",
                             { className: "icon" },
-                            n.a.createElement(E.a, { icon: s.e })
+                            n.a.createElement(s.a, { icon: E.e })
                           ),
                           n.a.createElement("span", null, "Resume")
                         ),
@@ -315,7 +318,7 @@
                           n.a.createElement(
                             "span",
                             { className: "icon" },
-                            n.a.createElement(E.a, { icon: s.f })
+                            n.a.createElement(s.a, { icon: E.f })
                           ),
                           n.a.createElement("span", null, "Email")
                         )
@@ -360,7 +363,7 @@
                           n.a.createElement(
                             "span",
                             { className: "icon" },
-                            n.a.createElement(E.a, { icon: s.a })
+                            n.a.createElement(s.a, { icon: E.a })
                           )
                         )
                       )
@@ -387,7 +390,7 @@
                           n.a.createElement(
                             "span",
                             { className: "icon" },
-                            n.a.createElement(E.a, { icon: s.b })
+                            n.a.createElement(s.a, { icon: E.b })
                           )
                         )
                       )
@@ -403,19 +406,22 @@
                       n.a.createElement(
                         "p",
                         { className: "subtitle" },
-                        "Check out my photography adventures."
+                        "Your average millennial photo-blog."
                       ),
                       n.a.createElement(
                         "p",
                         { className: "subtitle" },
                         n.a.createElement(
                           "a",
-                          { className: "button is-light" },
-                          n.a.createElement("span", null, "Coming Soon"),
+                          {
+                            className: "button is-light",
+                            href: "https://flickr.com/photos/171271779@N03/"
+                          },
+                          n.a.createElement("span", null, "Browse"),
                           n.a.createElement(
                             "span",
                             { className: "icon" },
-                            n.a.createElement(E.a, { icon: s.b })
+                            n.a.createElement(s.a, { icon: E.b })
                           )
                         )
                       )
@@ -426,7 +432,7 @@
             )
           );
         },
-        I = a(49),
+        I = a(50),
         u = a(28);
       function S() {
         var A = Object(u.a)([
@@ -489,7 +495,7 @@
                       n.a.createElement(
                         "span",
                         { className: "icon is-small" },
-                        n.a.createElement(E.a, { icon: A.icon })
+                        n.a.createElement(s.a, { icon: A.icon })
                       )
                     );
                   })
@@ -498,28 +504,28 @@
             )
           );
         },
-        v = a(32),
-        f = a.n(v),
+        f = a(32),
+        v = a.n(f),
         w = a(33),
         b = a.n(w),
         C = a(34),
         P = a.n(C),
         M = a(35),
-        Q = a.n(M),
-        G = a(36),
-        L = a.n(G),
-        y = a(37),
-        F = a.n(y),
+        L = a.n(M),
+        Q = a(36),
+        G = a.n(Q),
+        F = a(37),
+        y = a.n(F),
         U = a(38),
         T = a.n(U),
         V = a(39),
         H = a.n(V),
         q = a(40),
-        Y = a.n(q),
+        k = a.n(q),
         J = a(18),
-        j = a.n(J),
-        k = a(41),
-        K = a.n(k),
+        Y = a.n(J),
+        j = a(41),
+        K = a.n(j),
         X = a(42),
         Z = a.n(X),
         W = a(43),
@@ -533,77 +539,99 @@
         tA = a(47),
         nA = a.n(tA),
         iA = a(48),
-        rA = "is-info",
-        oA = "is-warning",
-        cA = "is-dark",
-        lA = "is-info",
-        mA = {
+        rA = a.n(iA),
+        cA = a(49),
+        oA = "is-info",
+        lA = "is-warning",
+        mA = "is-dark",
+        sA = "is-info",
+        EA = {
           ROLES: {
-            PASSION: { name: "Passion Project", color: cA },
-            INTERNSHIP: { name: "Internship", color: cA },
-            GIG: { name: "Gig", color: cA },
-            OPENSOURCE: { name: "Open Source Contributor", color: cA },
-            HACKATHON: { name: "Hackathon", color: cA }
+            PASSION: { name: "Passion Project", color: mA },
+            INTERNSHIP: { name: "Internship", color: mA },
+            GIG: { name: "Gig", color: mA },
+            OPENSOURCE: { name: "Open Source Contributor", color: mA },
+            HACKATHON: { name: "Hackathon", color: mA }
           },
           BACKEND: {
-            DJANGO: { name: "Django", color: oA },
-            DRF: { name: "Django Rest Framework", color: oA },
-            SQLITE: { name: "SQLite", color: oA },
-            POSTGRESQL: { name: "PostgreSQL", color: oA },
-            PYTHON: { name: "Python", color: oA },
-            FLASK: { name: "Flask", color: oA },
-            SWAGGER: { name: "Swagger", color: oA },
-            CELERY: { name: "Celery", color: oA },
-            MARIADB: { name: "MariaDB", color: oA },
-            MYSQL: { name: "MySQL", color: oA },
-            RQ2: { name: "RQ2", color: oA },
-            EXPRESS_JS: { name: "ExpressJs", color: oA },
-            NGINX: { name: "nginx", color: oA },
-            IPFS: { name: "IPFS", color: oA },
-            MONGO: { name: "MongoDB", color: oA }
+            DJANGO: { name: "Django", color: lA },
+            DRF: { name: "Django Rest Framework", color: lA },
+            SQLITE: { name: "SQLite", color: lA },
+            POSTGRESQL: { name: "PostgreSQL", color: lA },
+            PYTHON: { name: "Python", color: lA },
+            FLASK: { name: "Flask", color: lA },
+            SWAGGER: { name: "Swagger", color: lA },
+            CELERY: { name: "Celery", color: lA },
+            MARIADB: { name: "MariaDB", color: lA },
+            MYSQL: { name: "MySQL", color: lA },
+            RQ2: { name: "RQ2", color: lA },
+            EXPRESS_JS: { name: "ExpressJs", color: lA },
+            NGINX: { name: "nginx", color: lA },
+            IPFS: { name: "IPFS", color: lA },
+            MONGO: { name: "MongoDB", color: lA }
           },
           FRONTEND: {
-            REACT: { name: "React", color: rA },
-            ANGULAR: { name: "Angular.io", color: rA },
-            ANGULAR_MATERIAL: { name: "Material", color: rA },
-            LEAFLET: { name: "Leaflet", color: rA },
-            BULMA: { name: "Bulma", color: rA },
-            REDUX: { name: "Redux", color: rA },
-            BOOTSTRAP: { name: "Bootstrap", color: rA },
-            JQUERY: { name: "jQuery", color: rA }
+            REACT: { name: "React", color: oA },
+            ANGULAR: { name: "Angular.io", color: oA },
+            ANGULAR_MATERIAL: { name: "Material", color: oA },
+            LEAFLET: { name: "Leaflet", color: oA },
+            BULMA: { name: "Bulma", color: oA },
+            REDUX: { name: "Redux", color: oA },
+            BOOTSTRAP: { name: "Bootstrap", color: oA },
+            JQUERY: { name: "jQuery", color: oA }
           },
           OTHER: {
-            DISCORD: { name: "Discord.py", color: oA },
-            SCRAPING: { name: "Web Scraping", color: oA },
-            PRAW: { name: "PRAW", color: oA },
-            TKINTER: { name: "Tkinter", color: lA },
-            YOUTUBEDL: { name: "youtube-dl", color: lA },
-            FFMPEG: { name: "ffmpeg", color: lA },
-            PHASER: { name: "Phaser", color: lA },
-            BROWSER_EXTENSION: { name: "Browser Extension", color: lA },
-            PYGAME: { name: "Pygame", color: lA },
-            ECS: { name: "ECS", color: lA },
-            JAVA: { name: "Java", color: lA },
-            LIBGDX: { name: "libgdx", color: lA }
+            DISCORD: { name: "Discord.py", color: lA },
+            SCRAPING: { name: "Web Scraping", color: lA },
+            PRAW: { name: "PRAW", color: lA },
+            TKINTER: { name: "Tkinter", color: sA },
+            YOUTUBEDL: { name: "youtube-dl", color: sA },
+            FFMPEG: { name: "ffmpeg", color: sA },
+            PHASER: { name: "Phaser", color: sA },
+            BROWSER_EXTENSION: { name: "Browser Extension", color: sA },
+            PYGAME: { name: "Pygame", color: sA },
+            ECS: { name: "ECS", color: sA },
+            JAVA: { name: "Java", color: sA },
+            LIBGDX: { name: "libgdx", color: sA },
+            FABRICJS: { name: "FabricJS", color: sA }
           },
           INFRA: { DOCKER: { name: "Docker", color: "is-danger" } }
         },
-        EA = [
+        gA = [
           {
-            image: a.n(iA).a,
+            image: a.n(cA).a,
+            name: "Classical Meme Maker",
+            date: "Fall 2019",
+            copy: "Make memes via classical works of art.",
+            tags: [
+              EA.ROLES.PASSION,
+              EA.FRONTEND.ANGULAR,
+              EA.FRONTEND.BOOTSTRAP,
+              EA.OTHER.FABRICJS
+            ],
+            links: [
+              {
+                icon: R.a,
+                url: "https://github.com/tristanmkernan/classical-meme-maker"
+              },
+              { icon: E.d, url: "https://classical-meme.tmk.name/" }
+            ]
+          },
+          {
+            image: rA.a,
             name: "Is the Bathroom Available?",
             date: "Summer 2019",
             copy:
               "Monitor your shared bathroom from the comfort of your chair.",
             tags: [
-              mA.ROLES.PASSION,
-              mA.BACKEND.DJANGO,
-              mA.BACKEND.DRF,
-              mA.BACKEND.SQLITE,
-              mA.FRONTEND.REACT,
-              mA.INFRA.DOCKER
+              EA.ROLES.PASSION,
+              EA.BACKEND.DJANGO,
+              EA.BACKEND.DRF,
+              EA.BACKEND.SQLITE,
+              EA.FRONTEND.REACT,
+              EA.INFRA.DOCKER
             ],
-            links: [{ icon: s.d, url: "https://bathroom.tmk.name/" }]
+            links: [{ icon: E.d, url: "https://bathroom.tmk.name/" }]
           },
           {
             image: b.a,
@@ -612,14 +640,14 @@
             copy:
               "Stitch fix for children's clothing. Taking the pain out of dressing your children.",
             tags: [
-              mA.ROLES.INTERNSHIP,
-              mA.BACKEND.DJANGO,
-              mA.BACKEND.DRF,
-              mA.BACKEND.POSTGRESQL,
-              mA.FRONTEND.REACT,
-              mA.INFRA.DOCKER
+              EA.ROLES.INTERNSHIP,
+              EA.BACKEND.DJANGO,
+              EA.BACKEND.DRF,
+              EA.BACKEND.POSTGRESQL,
+              EA.FRONTEND.REACT,
+              EA.INFRA.DOCKER
             ],
-            links: [{ icon: s.d, url: "https://www.thedopple.com/" }]
+            links: [{ icon: E.d, url: "https://www.thedopple.com/" }]
           },
           {
             image: nA.a,
@@ -627,12 +655,12 @@
             date: "Summer 2019",
             copy: "Is it Wednesday, my dudes?",
             tags: [
-              mA.ROLES.PASSION,
-              mA.BACKEND.PYTHON,
-              mA.BACKEND.SQLITE,
-              mA.OTHER.DISCORD,
-              mA.OTHER.SCRAPING,
-              mA.INFRA.DOCKER
+              EA.ROLES.PASSION,
+              EA.BACKEND.PYTHON,
+              EA.BACKEND.SQLITE,
+              EA.OTHER.DISCORD,
+              EA.OTHER.SCRAPING,
+              EA.INFRA.DOCKER
             ],
             links: [
               {
@@ -654,24 +682,24 @@
             ]
           },
           {
-            image: f.a,
+            image: v.a,
             name: "Off the Beaten Path",
             date: "Spring 2019",
             copy:
               "Personalized geocaching. Rewrite of previous project by same name with more features and hosting.",
             tags: [
-              mA.ROLES.PASSION,
-              mA.BACKEND.FLASK,
-              mA.BACKEND.SWAGGER,
-              mA.BACKEND.SQLITE,
-              mA.FRONTEND.ANGULAR,
-              mA.FRONTEND.ANGULAR_MATERIAL,
-              mA.FRONTEND.LEAFLET,
-              mA.INFRA.DOCKER
+              EA.ROLES.PASSION,
+              EA.BACKEND.FLASK,
+              EA.BACKEND.SWAGGER,
+              EA.BACKEND.SQLITE,
+              EA.FRONTEND.ANGULAR,
+              EA.FRONTEND.ANGULAR_MATERIAL,
+              EA.FRONTEND.LEAFLET,
+              EA.INFRA.DOCKER
             ],
             links: [
               { icon: R.a, url: "https://github.com/off-the-beaten-path" },
-              { icon: s.d, url: "https://otbp.tmk.name/" }
+              { icon: E.d, url: "https://otbp.tmk.name/" }
             ]
           },
           {
@@ -681,67 +709,67 @@
             copy:
               "Actively parses posts from /r/AmItheAsshole and analyzes the data in order to identify if Reddit truly is the asshole.",
             tags: [
-              mA.ROLES.PASSION,
-              mA.BACKEND.FLASK,
-              mA.BACKEND.SQLITE,
-              mA.BACKEND.CELERY,
-              mA.OTHER.PRAW,
-              mA.FRONTEND.BULMA,
-              mA.INFRA.DOCKER
+              EA.ROLES.PASSION,
+              EA.BACKEND.FLASK,
+              EA.BACKEND.SQLITE,
+              EA.BACKEND.CELERY,
+              EA.OTHER.PRAW,
+              EA.FRONTEND.BULMA,
+              EA.INFRA.DOCKER
             ],
             links: [
               { icon: R.a, url: "https://github.com/tristanmkernan/aita" },
-              { icon: s.d, url: "https://aita.tmk.name/" }
+              { icon: E.d, url: "https://aita.tmk.name/" }
             ]
           },
           {
-            image: Q.a,
+            image: L.a,
             name: "Factions",
             date: "Spring 2019",
             copy:
               "Lead your faction to victory through diplomacy, intrigue, and war.",
             tags: [
-              mA.ROLES.GIG,
-              mA.BACKEND.FLASK,
-              mA.BACKEND.SWAGGER,
-              mA.BACKEND.MARIADB,
-              mA.FRONTEND.ANGULAR,
-              mA.FRONTEND.ANGULAR_MATERIAL,
-              mA.INFRA.DOCKER
+              EA.ROLES.GIG,
+              EA.BACKEND.FLASK,
+              EA.BACKEND.SWAGGER,
+              EA.BACKEND.MARIADB,
+              EA.FRONTEND.ANGULAR,
+              EA.FRONTEND.ANGULAR_MATERIAL,
+              EA.INFRA.DOCKER
             ],
             links: []
           },
           {
-            image: L.a,
+            image: G.a,
             name: "TV Sleep",
             date: "Fall 2018",
             copy:
               'Brings the missing "sleep" function of television sets to your computer. In other words, it puts the computer to sleep after a delay. Perfect for late night Netflix or Twitch sessions.',
-            tags: [mA.ROLES.PASSION, mA.BACKEND.PYTHON, mA.OTHER.TKINTER],
+            tags: [EA.ROLES.PASSION, EA.BACKEND.PYTHON, EA.OTHER.TKINTER],
             links: [
               { icon: R.a, url: "https://github.com/tristanmkernan/tvsleep" },
-              { icon: s.d, url: "https://pypi.org/project/tvsleep/" }
+              { icon: E.d, url: "https://pypi.org/project/tvsleep/" }
             ]
           },
           {
-            image: F.a,
+            image: y.a,
             name: "Project Loopifi",
             date: "Fall 2018",
             copy:
               "Finds and exports smooth-looping segments within a YouTube video.",
             tags: [
-              mA.ROLES.PASSION,
-              mA.BACKEND.FLASK,
-              mA.BACKEND.MYSQL,
-              mA.BACKEND.RQ2,
-              mA.FRONTEND.BULMA,
-              mA.OTHER.YOUTUBEDL,
-              mA.OTHER.FFMPEG,
-              mA.INFRA.DOCKER
+              EA.ROLES.PASSION,
+              EA.BACKEND.FLASK,
+              EA.BACKEND.MYSQL,
+              EA.BACKEND.RQ2,
+              EA.FRONTEND.BULMA,
+              EA.OTHER.YOUTUBEDL,
+              EA.OTHER.FFMPEG,
+              EA.INFRA.DOCKER
             ],
             links: [
               { icon: R.a, url: "https://github.com/nyavramov/loopifi" },
-              { icon: s.d, url: "https://loopifi.com/" }
+              { icon: E.d, url: "https://loopifi.com/" }
             ]
           },
           {
@@ -751,13 +779,13 @@
             copy:
               "A custom forum software for university. Communicate with other students in your courses, manage deadlines, and work collaboratively to achieve academic success.",
             tags: [
-              mA.ROLES.PASSION,
-              mA.BACKEND.FLASK,
-              mA.BACKEND.MYSQL,
-              mA.FRONTEND.ANGULAR,
-              mA.FRONTEND.REDUX,
-              mA.FRONTEND.BOOTSTRAP,
-              mA.INFRA.DOCKER
+              EA.ROLES.PASSION,
+              EA.BACKEND.FLASK,
+              EA.BACKEND.MYSQL,
+              EA.FRONTEND.ANGULAR,
+              EA.FRONTEND.REDUX,
+              EA.FRONTEND.BOOTSTRAP,
+              EA.INFRA.DOCKER
             ],
             links: [{ icon: R.a, url: "https://github.com/ScarletStudies" }]
           },
@@ -766,45 +794,45 @@
             name: "Ancient Beast",
             date: "Summer 2018",
             copy: "Browser-based, multiplayer tactical chess-like game.",
-            tags: [mA.ROLES.OPENSOURCE, mA.FRONTEND.JQUERY, mA.OTHER.PHASER],
+            tags: [EA.ROLES.OPENSOURCE, EA.FRONTEND.JQUERY, EA.OTHER.PHASER],
             links: [
               {
                 icon: R.a,
                 url: "https://github.com/FreezingMoon/AncientBeast"
               },
-              { icon: s.d, url: "https://ancientbeast.com/" }
+              { icon: E.d, url: "https://ancientbeast.com/" }
             ]
           },
           {
-            image: Y.a,
+            image: k.a,
             name: "FileBin",
             date: "Spring 2018",
             copy:
               "Still using email to send small files quickly between your phone(s) and computer(s)? Fret no more!",
             tags: [
-              mA.ROLES.PASSION,
-              mA.BACKEND.FLASK,
-              mA.FRONTEND.BULMA,
-              mA.INFRA.DOCKER
+              EA.ROLES.PASSION,
+              EA.BACKEND.FLASK,
+              EA.FRONTEND.BULMA,
+              EA.INFRA.DOCKER
             ],
             links: [
               { icon: R.a, url: "https://github.com/tristanmkernan/filebin" },
-              { icon: s.d, url: "https://bin.tmk.name/" }
+              { icon: E.d, url: "https://bin.tmk.name/" }
             ]
           },
           {
-            image: j.a,
+            image: Y.a,
             name: "HearthSoundBoard",
             date: "Fall 2017",
             copy: 'For spamming "How long can this go on?"',
-            tags: [mA.ROLES.PASSION, mA.FRONTEND.ANGULAR, mA.OTHER.SCRAPING],
+            tags: [EA.ROLES.PASSION, EA.FRONTEND.ANGULAR, EA.OTHER.SCRAPING],
             links: [
               {
                 icon: R.a,
                 url: "https://github.com/tristanmkernan/hearthsoundboard"
               },
               {
-                icon: s.d,
+                icon: E.d,
                 url: "https://tristanmkernan.github.io/hearthsoundboard/"
               }
             ]
@@ -816,12 +844,12 @@
             copy:
               "Snapchat, but re-imagined for the web. Graffiti over websites and share with your friends.",
             tags: [
-              mA.ROLES.INTERNSHIP,
-              mA.OTHER.BROWSER_EXTENSION,
-              mA.BACKEND.EXPRESS_JS,
-              mA.BACKEND.MYSQL,
-              mA.FRONTEND.ANGULAR,
-              mA.FRONTEND.BOOTSTRAP
+              EA.ROLES.INTERNSHIP,
+              EA.OTHER.BROWSER_EXTENSION,
+              EA.BACKEND.EXPRESS_JS,
+              EA.BACKEND.MYSQL,
+              EA.FRONTEND.ANGULAR,
+              EA.FRONTEND.BOOTSTRAP
             ],
             links: []
           },
@@ -831,10 +859,10 @@
             date: "Summer to Fall 2017",
             copy: "Consolidated reputation management and survey platform.",
             tags: [
-              mA.ROLES.INTERNSHIP,
-              mA.FRONTEND.ANGULAR,
-              mA.FRONTEND.BOOTSTRAP,
-              mA.FRONTEND.REDUX
+              EA.ROLES.INTERNSHIP,
+              EA.FRONTEND.ANGULAR,
+              EA.FRONTEND.BOOTSTRAP,
+              EA.FRONTEND.REDUX
             ],
             links: []
           },
@@ -844,11 +872,11 @@
             date: "Winter 2017",
             copy: "Hackathon project. Stream videos to the blockchain.",
             tags: [
-              mA.ROLES.HACKATHON,
-              mA.BACKEND.FLASK,
-              mA.BACKEND.NGINX,
-              mA.BACKEND.IPFS,
-              mA.BACKEND.MONGO
+              EA.ROLES.HACKATHON,
+              EA.BACKEND.FLASK,
+              EA.BACKEND.NGINX,
+              EA.BACKEND.IPFS,
+              EA.BACKEND.MONGO
             ],
             links: [
               { icon: R.a, url: "https://github.com/eaglewudev/blackbox" }
@@ -860,16 +888,16 @@
             date: "Summer 2016 to Summer 2017",
             copy:
               "Bringing accountability to disaster aid relief organizations.",
-            tags: [mA.ROLES.INTERNSHIP, mA.BACKEND.MYSQL, mA.FRONTEND.ANGULAR],
+            tags: [EA.ROLES.INTERNSHIP, EA.BACKEND.MYSQL, EA.FRONTEND.ANGULAR],
             links: []
           },
           {
-            image: j.a,
+            image: Y.a,
             name: "DraftWithMe",
             date: "Summer 2016",
             copy:
               "Live stream your HearthStone arena drafts to your friends and the public.",
-            tags: [mA.ROLES.PASSION, mA.BACKEND.FLASK, mA.OTHER.TKINTER],
+            tags: [EA.ROLES.PASSION, EA.BACKEND.FLASK, EA.OTHER.TKINTER],
             links: [
               {
                 icon: R.a,
@@ -894,7 +922,7 @@
             name: "Wanderer",
             date: "Spring 2016",
             copy: "Totally configurable adventure game.",
-            tags: [mA.ROLES.PASSION, mA.OTHER.PYGAME, mA.OTHER.ECS],
+            tags: [EA.ROLES.PASSION, EA.OTHER.PYGAME, EA.OTHER.ECS],
             links: [
               {
                 icon: R.a,
@@ -908,7 +936,7 @@
             date: "Spring 2015",
             copy:
               "Tower defense game in which you can create your own maps to play and share.",
-            tags: [mA.ROLES.PASSION, mA.OTHER.JAVA, mA.OTHER.LIBGDX],
+            tags: [EA.ROLES.PASSION, EA.OTHER.JAVA, EA.OTHER.LIBGDX],
             links: [
               {
                 icon: R.a,
@@ -917,7 +945,7 @@
             ]
           }
         ],
-        sA = function() {
+        BA = function() {
           return n.a.createElement(
             B.Element,
             { name: "projects-list" },
@@ -940,7 +968,7 @@
                       "Present"
                     )
                   ),
-                  EA.map(function(A) {
+                  gA.map(function(A) {
                     return n.a.createElement(O, { key: A.name, project: A });
                   }),
                   n.a.createElement(
@@ -957,13 +985,13 @@
             )
           );
         },
-        gA = function() {
+        RA = function() {
           return n.a.createElement(
             "div",
             { className: "container" },
             n.a.createElement(m, null),
             n.a.createElement(p, null),
-            n.a.createElement(sA, null),
+            n.a.createElement(BA, null),
             n.a.createElement(g, null)
           );
         };
@@ -974,13 +1002,13 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      r.a.render(n.a.createElement(gA, null), document.getElementById("root")),
+      r.a.render(n.a.createElement(RA, null), document.getElementById("root")),
         "serviceWorker" in navigator &&
           navigator.serviceWorker.ready.then(function(A) {
             A.unregister();
           });
     }
   ]),
-  [[52, 1, 2]]
+  [[53, 1, 2]]
 ]);
-//# sourceMappingURL=main.3527248c.chunk.js.map
+//# sourceMappingURL=main.7d58f592.chunk.js.map
