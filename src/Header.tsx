@@ -49,7 +49,7 @@ const Header: React.FC = () => {
           </a>
 
           <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link">Projects</a>
+            <a className="navbar-link">Quick Links</a>
 
             <div className="navbar-dropdown">
               {projects.map(project => (

@@ -104,10 +104,13 @@ const About: React.FC = () => {
               </article>
               <article className="tile is-child notification is-warning">
                 <p className="title">Photography</p>
-                <p className="subtitle">Check out my photography adventures.</p>
+                <p className="subtitle">Your average millennial photo-blog.</p>
                 <p className="subtitle">
-                  <a className="button is-light">
-                    <span>Coming Soon</span>
+                  <a
+                    className="button is-light"
+                    href="https://flickr.com/photos/171271779@N03/"
+                  >
+                    <span>Browse</span>
                     <span className="icon">
                       <FontAwesomeIcon icon={faChevronRight} />
                     </span>
