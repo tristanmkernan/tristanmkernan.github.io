@@ -227,7 +227,7 @@ export const PROJECTS = [
   },
   {
     image: DoppleImg,
-    name: "Dopple",
+    name: "Dopple Redux",
     date: "Spring 2020",
     copy: "The return internship. I guess they liked me!",
     tags: [
