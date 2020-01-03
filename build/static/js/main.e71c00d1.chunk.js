@@ -615,7 +615,7 @@
           },
           {
             image: C.a,
-            name: "Dopple",
+            name: "Dopple Redux",
             date: "Spring 2020",
             copy: "The return internship. I guess they liked me!",
             tags: [
@@ -1041,4 +1041,4 @@
   ]),
   [[54, 1, 2]]
 ]);
-//# sourceMappingURL=main.b11bfb82.chunk.js.map
+//# sourceMappingURL=main.e71c00d1.chunk.js.map
