@@ -20,6 +20,7 @@ import LibGDXImg from "./assets/img/libgdx.png";
 import DiscordImg from "./assets/img/discord.jpeg";
 import BathroomImg from "./assets/img/bathroom.jpg";
 import ClassicalArtImg from "./assets/img/classical-art.png";
+import GraduationImg from "./assets/img/graduation.png";
 
 const TAG_TYPE_TO_COLOR = {
   FRONTEND: "is-info",
@@ -200,6 +201,10 @@ const TAG_DATABASE = {
     FABRICJS: {
       name: "FabricJS",
       color: TAG_TYPE_TO_COLOR.OTHER
+    },
+    COMING_SOON: {
+      name: "Coming soon!",
+      color: TAG_TYPE_TO_COLOR.OTHER
     }
   },
   INFRA: {
@@ -211,6 +216,35 @@ const TAG_DATABASE = {
 };
 
 export const PROJECTS = [
+  {
+    image: GraduationImg,
+    name: "Graduation",
+    date: "Spring 2020",
+    copy:
+      "Graduated from Rutgers University with a BA in Mathematics, minor in Computer Science.",
+    tags: [TAG_DATABASE.OTHER.COMING_SOON],
+    links: []
+  },
+  {
+    image: DoppleImg,
+    name: "Dopple",
+    date: "Spring 2020",
+    copy: "The return internship. I guess they liked me!",
+    tags: [
+      TAG_DATABASE.ROLES.INTERNSHIP,
+      TAG_DATABASE.BACKEND.DJANGO,
+      TAG_DATABASE.BACKEND.DRF,
+      TAG_DATABASE.BACKEND.POSTGRESQL,
+      TAG_DATABASE.FRONTEND.REACT,
+      TAG_DATABASE.INFRA.DOCKER
+    ],
+    links: [
+      {
+        icon: faExternalLinkAlt,
+        url: "https://www.thedopple.com/"
+      }
+    ]
+  },
   {
     image: ClassicalArtImg,
     name: "Classical Meme Maker",
