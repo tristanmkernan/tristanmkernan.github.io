@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import HeaderImg from "./assets/img/header.png";
 
@@ -22,19 +22,22 @@ const projects = [
 ];
 
 const Header: React.FC = () => {
+  const [navbarOpen, setNavbarOpen] = useState(false);
+
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">
       <div className="navbar-brand">
-        <a className="navbar-item" href="https://bulma.io">
+        <a className="navbar-item" href="/">
           <img src={HeaderImg} />
         </a>
 
         <a
           role="button"
-          className="navbar-burger burger"
+          className={`navbar-burger burger ${navbarOpen && "is-active"}`}
           aria-label="menu"
           aria-expanded="false"
           data-target="navbarBasicExample"
+          onClick={() => setNavbarOpen(prev => !prev)}
         >
           <span aria-hidden="true" />
           <span aria-hidden="true" />
@@ -42,7 +45,10 @@ const Header: React.FC = () => {
         </a>
       </div>
 
-      <div id="navbarBasicExample" className="navbar-menu">
+      <div
+        id="navbarBasicExample"
+        className={`navbar-menu ${navbarOpen && "is-active"}`}
+      >
         <div className="navbar-start">
           <a className="navbar-item" href="/">
             Home
