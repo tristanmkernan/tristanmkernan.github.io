@@ -21,6 +21,7 @@ import DiscordImg from "./assets/img/discord.jpeg";
 import BathroomImg from "./assets/img/bathroom.jpg";
 import ClassicalArtImg from "./assets/img/classical-art.png";
 import GraduationImg from "./assets/img/graduation.png";
+import ChainImg from "./assets/img/chain.jpg";
 
 const TAG_TYPE_TO_COLOR = {
   FRONTEND: "is-info",
@@ -128,6 +129,10 @@ const TAG_DATABASE = {
       name: "Material",
       color: TAG_TYPE_TO_COLOR.FRONTEND
     },
+    NGRX: {
+      name: "NGRX",
+      color: TAG_TYPE_TO_COLOR.FRONTEND
+    },
     LEAFLET: {
       name: "Leaflet",
       color: TAG_TYPE_TO_COLOR.FRONTEND
@@ -229,7 +234,7 @@ export const PROJECTS = [
     image: DoppleImg,
     name: "Dopple Redux",
     date: "Spring 2020",
-    copy: "The return internship. I guess they liked me!",
+    copy: "The return internship.",
     tags: [
       TAG_DATABASE.ROLES.INTERNSHIP,
       TAG_DATABASE.BACKEND.DJANGO,
@@ -242,6 +247,32 @@ export const PROJECTS = [
       {
         icon: faExternalLinkAlt,
         url: "https://www.thedopple.com/"
+      }
+    ]
+  },
+  {
+    image: ChainImg,
+    name: "Linkanizer",
+    date: "Winter 2019",
+    copy: "Maintain lists of links. Bookmarking to-go.",
+    tags: [
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.BACKEND.DJANGO,
+      TAG_DATABASE.BACKEND.DRF,
+      TAG_DATABASE.BACKEND.SQLITE,
+      TAG_DATABASE.FRONTEND.ANGULAR,
+      TAG_DATABASE.FRONTEND.BOOTSTRAP,
+      TAG_DATABASE.FRONTEND.NGRX,
+      TAG_DATABASE.INFRA.DOCKER
+    ],
+    links: [
+      {
+        icon: faGithub,
+        url: "https://github.com/linkanizer"
+      },
+      {
+        icon: faExternalLinkAlt,
+        url: "https://lzr.tmk.name/"
       }
     ]
   },

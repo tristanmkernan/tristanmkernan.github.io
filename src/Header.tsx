@@ -16,6 +16,10 @@ const projects = [
     name: "AITA Stats"
   },
   {
+    url: "https://lzr.tmk.name/",
+    name: "Linkanizer"
+  },
+  {
     url: "https://loopifi.com/",
     name: "Loopifi"
   }
