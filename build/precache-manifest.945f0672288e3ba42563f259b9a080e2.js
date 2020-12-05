@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    revision: "7bf5623f26dc265004deccb709df0423",
+    revision: "2f469e65cbc0aa2e24c7e67c94ecae97",
     url: "/index.html"
   },
   {
-    revision: "be25d2865374e892cecb",
+    revision: "26dc499ebf1d467bf594",
     url: "/static/css/2.11623bd8.chunk.css"
   },
   {
-    revision: "a290ea8598527f525fe3",
+    revision: "58d2c175619eb5451fdf",
     url: "/static/css/main.3ba64763.chunk.css"
   },
   {
-    revision: "be25d2865374e892cecb",
-    url: "/static/js/2.d380ece1.chunk.js"
+    revision: "26dc499ebf1d467bf594",
+    url: "/static/js/2.373b3d67.chunk.js"
   },
   {
-    revision: "a290ea8598527f525fe3",
-    url: "/static/js/main.40ef1f39.chunk.js"
+    revision: "58d2c175619eb5451fdf",
+    url: "/static/js/main.9890cc63.chunk.js"
   },
   {
     revision: "42ac5946195a7306e2a5",
@@ -78,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     revision: "b03f796c67f9ab51d99dcb9e4dd30382",
     url: "/static/media/pygame.b03f796c.png"
+  },
+  {
+    revision: "f804b84301bfbd8b993978d5172fdeb6",
+    url: "/static/media/savi.f804b843.png"
   },
   {
     revision: "3a34679f05b917f25fa1502695fd2f1f",

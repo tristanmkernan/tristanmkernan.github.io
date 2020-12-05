@@ -22,6 +22,7 @@ import BathroomImg from "./assets/img/bathroom.jpg";
 import ClassicalArtImg from "./assets/img/classical-art.png";
 import GraduationImg from "./assets/img/graduation.png";
 import ChainImg from "./assets/img/chain.jpg";
+import SaviImg from "./assets/img/savi.png";
 
 const TAG_TYPE_TO_COLOR = {
   FRONTEND: "is-info",
@@ -52,6 +53,10 @@ const TAG_DATABASE = {
     HACKATHON: {
       name: "Hackathon",
       color: TAG_TYPE_TO_COLOR.ROLE
+    },
+    JOB: {
+      name: "Job",
+      color: TAG_TYPE_TO_COLOR.ROLE
     }
   },
   BACKEND: {
@@ -61,6 +66,10 @@ const TAG_DATABASE = {
     },
     DRF: {
       name: "Django Rest Framework",
+      color: TAG_TYPE_TO_COLOR.BACKEND
+    },
+    LARAVEL: {
+      name: "Laravel",
       color: TAG_TYPE_TO_COLOR.BACKEND
     },
     SQLITE: {
@@ -207,8 +216,8 @@ const TAG_DATABASE = {
       name: "FabricJS",
       color: TAG_TYPE_TO_COLOR.OTHER
     },
-    COMING_SOON: {
-      name: "Coming soon!",
+    EDUCATION: {
+      name: "Education!",
       color: TAG_TYPE_TO_COLOR.OTHER
     }
   },
@@ -222,12 +231,32 @@ const TAG_DATABASE = {
 
 export const PROJECTS = [
   {
+    image: SaviImg,
+    name: "Savi",
+    date: "Summer 2020 - now",
+    copy: "Building tools to combat the student debt crisis.",
+    tags: [
+      TAG_DATABASE.ROLES.JOB,
+      TAG_DATABASE.BACKEND.LARAVEL,
+      TAG_DATABASE.BACKEND.MYSQL,
+      TAG_DATABASE.BACKEND.DJANGO,
+      TAG_DATABASE.BACKEND.POSTGRESQL,
+      TAG_DATABASE.FRONTEND.REACT
+    ],
+    links: [
+      {
+        icon: faExternalLinkAlt,
+        url: "https://www.bysavi.com/"
+      }
+    ]
+  },
+  {
     image: GraduationImg,
     name: "Graduation",
     date: "Spring 2020",
     copy:
       "Graduated from Rutgers University with a BA in Mathematics, minor in Computer Science.",
-    tags: [TAG_DATABASE.OTHER.COMING_SOON],
+    tags: [TAG_DATABASE.OTHER.EDUCATION],
     links: []
   },
   {
