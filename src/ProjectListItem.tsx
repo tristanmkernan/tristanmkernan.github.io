@@ -8,6 +8,12 @@ const StyledParagraph = styled.p`
   margin-bottom: 0.25rem;
 `;
 
+const StyledTimelineMarker = styled.div`
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+`;
+
 type TagProps = {
   tag: Tag;
 };
@@ -23,9 +29,9 @@ type Props = {
 const ProjectListItem: React.FC<Props> = ({ project }: Props) => {
   return (
     <div className="timeline-item is-primary">
-      <div className="timeline-marker is-primary is-image is-32x32">
+      <StyledTimelineMarker className="timeline-marker is-primary is-image is-32x32">
         <img src={project.image} />
-      </div>
+      </StyledTimelineMarker>
       <div className="timeline-content">
         <p className="heading">{project.date}</p>
         <StyledParagraph>

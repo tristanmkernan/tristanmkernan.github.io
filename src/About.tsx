@@ -21,21 +21,14 @@ const About: React.FC = () => {
               <article className="tile is-child notification is-info">
                 <p className="title">About Me</p>
                 <p className="subtitle">
-                  Hi! I'm a software developer and student, currently studying
-                  mathematics and computer science at Rutgers University. I've
-                  been programming for over 5 years, with a passion for Python
-                  and web applications.
+                  Hi 👋 I'm a full stack software developer, currently working
+                  on technological solutions to tackle the student debt crisis.
                 </p>
 
                 <p className="subtitle">
-                  My goal in life is to work as a software engineer at an
-                  organization that is improving the world on a grand scale.
-                </p>
-
-                <p className="subtitle">
-                  My hobbies include reading old science fiction novels,
-                  programming free and open source software, birding, and
-                  gaming.
+                  My <em>continuing</em> goal in life is to work as a software
+                  engineer at an organization that is improving the world on a
+                  grand scale.
                 </p>
 
                 <div className="buttons">

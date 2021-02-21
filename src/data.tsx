@@ -23,6 +23,7 @@ import ClassicalArtImg from "./assets/img/classical-art.png";
 import GraduationImg from "./assets/img/graduation.png";
 import ChainImg from "./assets/img/chain.jpg";
 import SaviImg from "./assets/img/savi.png";
+import LettersImg from "./assets/img/letter.jpeg";
 
 const TAG_TYPE_TO_COLOR = {
   FRONTEND: "is-info",
@@ -55,7 +56,7 @@ const TAG_DATABASE = {
       color: TAG_TYPE_TO_COLOR.ROLE
     },
     JOB: {
-      name: "Job",
+      name: "Full Time",
       color: TAG_TYPE_TO_COLOR.ROLE
     }
   },
@@ -230,6 +231,22 @@ const TAG_DATABASE = {
 };
 
 export const PROJECTS = [
+  {
+    image: LettersImg,
+    name: "Letters App",
+    date: "Winter 2021",
+    copy: "Write old fashioned letters to your politicians - the modern way.",
+    tags: [
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.BACKEND.DJANGO,
+      TAG_DATABASE.BACKEND.DRF,
+      TAG_DATABASE.BACKEND.POSTGRESQL,
+      TAG_DATABASE.FRONTEND.REACT,
+      TAG_DATABASE.FRONTEND.BOOTSTRAP,
+      TAG_DATABASE.INFRA.DOCKER
+    ],
+    links: []
+  },
   {
     image: SaviImg,
     name: "Savi",
@@ -690,7 +707,7 @@ export const PROJECTS = [
       },
       {
         icon: faGithub,
-        url: "://github.com/tristanmkernan/hearthstonearenalogwatcher"
+        url: "https://github.com/tristanmkernan/hearthstonearenalogwatcher"
       }
     ]
   },
