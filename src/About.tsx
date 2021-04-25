@@ -60,40 +60,6 @@ const About: React.FC = () => {
                     <span>Email</span>
                   </a>
                 </div>
-
-                <figure className="image is-16by9">
-                  <img alt="my banner image" src={BannerImage} />
-                </figure>
-              </article>
-            </div>
-            <div className="tile is-parent is-vertical">
-              <article className="tile is-child notification is-success">
-                <p className="title">Projects</p>
-                <p className="subtitle">Tour the projects I've worked on.</p>
-                <p className="subtitle">
-                  <Link
-                    to="projects-list"
-                    smooth={false}
-                    className="button is-light"
-                  >
-                    <span>Explore</span>
-                    <span className="icon">
-                      <FontAwesomeIcon icon={faChevronDown} />
-                    </span>
-                  </Link>
-                </p>
-              </article>
-              <article className="tile is-child notification is-primary">
-                <p className="title">Blog</p>
-                <p className="subtitle">Explore technology with me.</p>
-                <p className="subtitle">
-                  <a className="button is-light" href="https://blog.tmk.name/">
-                    <span>Visit</span>
-                    <span className="icon">
-                      <FontAwesomeIcon icon={faChevronRight} />
-                    </span>
-                  </a>
-                </p>
               </article>
             </div>
           </div>
