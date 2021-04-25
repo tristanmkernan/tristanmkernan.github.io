@@ -9,7 +9,6 @@ import ProjectList from "./ProjectList";
 const App: React.FC = () => {
   return (
     <div className="container">
-      <Header />
       <About />
       <ProjectList />
       <Footer />
