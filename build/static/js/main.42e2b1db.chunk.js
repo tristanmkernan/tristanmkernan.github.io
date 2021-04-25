@@ -1,6 +1,6 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
   [0],
-  Array(20).concat([
+  Array(19).concat([
     function(A, e) {
       A.exports =
         "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAACgCAMAAADUx0IOAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAMiaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjAtYzA2MSA2NC4xNDA5NDksIDIwMTAvMTIvMDctMTA6NTc6MDEgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUuMSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjE5MDlFNjQwQ0FCNDExRTdCQjVBOUYxRUVGQTA4QkQ4IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjE5MDlFNjQxQ0FCNDExRTdCQjVBOUYxRUVGQTA4QkQ4Ij4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MTkwOUU2M0VDQUI0MTFFN0JCNUE5RjFFRUZBMDhCRDgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MTkwOUU2M0ZDQUI0MTFFN0JCNUE5RjFFRUZBMDhCRDgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4VTxIAAAAAk1BMVEVMaXHn5+fj4+Obm5vr6+up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";
@@ -13,13 +13,7 @@
     ,
     ,
     ,
-    function(A, e) {
-      A.exports =
-        "data:image/png;base64,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";
-    },
-    function(A, e, a) {
-      A.exports = a.p + "static/media/14-sanders-rally.48dc8acf.jpg";
-    },
+    ,
     ,
     ,
     ,
@@ -96,9 +90,8 @@
     ,
     ,
     ,
-    ,
     function(A, e, a) {
-      A.exports = a(80);
+      A.exports = a(77);
     },
     ,
     ,
@@ -127,97 +120,10 @@
       var t = a(0),
         n = a.n(t),
         i = a(7),
-        r = a.n(i),
-        c = (a(63), a(64), a(65), a(66), a(54)),
-        o = a(27),
-        l = a.n(o),
-        m = [
-          { url: "https://bin.tmk.name/", name: "FileBin" },
-          { url: "https://otbp.tmk.name/", name: "OtBP" },
-          { url: "https://aita.tmk.name/", name: "AITA Stats" },
-          { url: "https://lzr.tmk.name/", name: "Linkanizer" },
-          { url: "https://loopifi.com/", name: "Loopifi" }
-        ],
+        o = a.n(i),
+        c = (a(60), a(61), a(62), a(63), a(4)),
+        r = a(3),
         E = function() {
-          var A = Object(t.useState)(!1),
-            e = Object(c.a)(A, 2),
-            a = e[0],
-            i = e[1];
-          return n.a.createElement(
-            "nav",
-            {
-              className: "navbar",
-              role: "navigation",
-              "aria-label": "main navigation"
-            },
-            n.a.createElement(
-              "div",
-              { className: "navbar-brand" },
-              n.a.createElement(
-                "a",
-                { className: "navbar-item", href: "/" },
-                n.a.createElement("img", { src: l.a })
-              ),
-              n.a.createElement(
-                "a",
-                {
-                  role: "button",
-                  className: "navbar-burger burger ".concat(a && "is-active"),
-                  "aria-label": "menu",
-                  "aria-expanded": "false",
-                  "data-target": "navbarBasicExample",
-                  onClick: function() {
-                    return i(function(A) {
-                      return !A;
-                    });
-                  }
-                },
-                n.a.createElement("span", { "aria-hidden": "true" }),
-                n.a.createElement("span", { "aria-hidden": "true" }),
-                n.a.createElement("span", { "aria-hidden": "true" })
-              )
-            ),
-            n.a.createElement(
-              "div",
-              {
-                id: "navbarBasicExample",
-                className: "navbar-menu ".concat(a && "is-active")
-              },
-              n.a.createElement(
-                "div",
-                { className: "navbar-start" },
-                n.a.createElement(
-                  "a",
-                  { className: "navbar-item", href: "/" },
-                  "Home"
-                ),
-                n.a.createElement(
-                  "div",
-                  { className: "navbar-item has-dropdown is-hoverable" },
-                  n.a.createElement(
-                    "a",
-                    { className: "navbar-link" },
-                    "Quick Links"
-                  ),
-                  n.a.createElement(
-                    "div",
-                    { className: "navbar-dropdown" },
-                    m.map(function(A) {
-                      return n.a.createElement(
-                        "a",
-                        { key: A.name, className: "navbar-item", href: A.url },
-                        A.name
-                      );
-                    })
-                  )
-                )
-              )
-            )
-          );
-        },
-        s = a(4),
-        g = a(3),
-        R = function() {
           return n.a.createElement(
             "footer",
             { className: "footer" },
@@ -243,7 +149,7 @@
                 ",\xa0",
                 n.a.createElement("a", { href: "https://bulma.io/" }, "bulma"),
                 " and\xa0",
-                n.a.createElement(s.a, { icon: g.c }),
+                n.a.createElement(c.a, { icon: r.a }),
                 ". The source code is licensed\xa0",
                 n.a.createElement(
                   "a",
@@ -261,11 +167,8 @@
             )
           );
         },
-        N = a(9),
-        B = a(2),
-        h = a(28),
-        p = a.n(h),
-        u = function() {
+        l = a(2),
+        m = function() {
           return n.a.createElement(
             "section",
             { className: "section" },
@@ -313,7 +216,7 @@
                           n.a.createElement(
                             "span",
                             { className: "icon" },
-                            n.a.createElement(s.a, { icon: B.a })
+                            n.a.createElement(c.a, { icon: l.a })
                           ),
                           n.a.createElement("span", null, "Github")
                         ),
@@ -327,7 +230,7 @@
                           n.a.createElement(
                             "span",
                             { className: "icon" },
-                            n.a.createElement(s.a, { icon: g.e })
+                            n.a.createElement(c.a, { icon: r.c })
                           ),
                           n.a.createElement("span", null, "Resume")
                         ),
@@ -340,111 +243,9 @@
                           n.a.createElement(
                             "span",
                             { className: "icon" },
-                            n.a.createElement(s.a, { icon: g.f })
+                            n.a.createElement(c.a, { icon: r.d })
                           ),
                           n.a.createElement("span", null, "Email")
-                        )
-                      ),
-                      n.a.createElement(
-                        "figure",
-                        { className: "image is-16by9" },
-                        n.a.createElement("img", {
-                          alt: "my banner image",
-                          src: p.a
-                        })
-                      )
-                    )
-                  ),
-                  n.a.createElement(
-                    "div",
-                    { className: "tile is-parent is-vertical" },
-                    n.a.createElement(
-                      "article",
-                      { className: "tile is-child notification is-success" },
-                      n.a.createElement(
-                        "p",
-                        { className: "title" },
-                        "Projects"
-                      ),
-                      n.a.createElement(
-                        "p",
-                        { className: "subtitle" },
-                        "Tour the projects I've worked on."
-                      ),
-                      n.a.createElement(
-                        "p",
-                        { className: "subtitle" },
-                        n.a.createElement(
-                          N.Link,
-                          {
-                            to: "projects-list",
-                            smooth: !1,
-                            className: "button is-light"
-                          },
-                          n.a.createElement("span", null, "Explore"),
-                          n.a.createElement(
-                            "span",
-                            { className: "icon" },
-                            n.a.createElement(s.a, { icon: g.a })
-                          )
-                        )
-                      )
-                    ),
-                    n.a.createElement(
-                      "article",
-                      { className: "tile is-child notification is-primary" },
-                      n.a.createElement("p", { className: "title" }, "Blog"),
-                      n.a.createElement(
-                        "p",
-                        { className: "subtitle" },
-                        "Explore technology with me."
-                      ),
-                      n.a.createElement(
-                        "p",
-                        { className: "subtitle" },
-                        n.a.createElement(
-                          "a",
-                          {
-                            className: "button is-light",
-                            href: "https://blog.tmk.name/"
-                          },
-                          n.a.createElement("span", null, "Visit"),
-                          n.a.createElement(
-                            "span",
-                            { className: "icon" },
-                            n.a.createElement(s.a, { icon: g.b })
-                          )
-                        )
-                      )
-                    ),
-                    n.a.createElement(
-                      "article",
-                      { className: "tile is-child notification is-warning" },
-                      n.a.createElement(
-                        "p",
-                        { className: "title" },
-                        "Photography"
-                      ),
-                      n.a.createElement(
-                        "p",
-                        { className: "subtitle" },
-                        "Your average millennial photo-blog."
-                      ),
-                      n.a.createElement(
-                        "p",
-                        { className: "subtitle" },
-                        n.a.createElement(
-                          "a",
-                          {
-                            className: "button is-light",
-                            href: "https://flickr.com/photos/171271779@N03/"
-                          },
-                          n.a.createElement("span", null, "Browse"),
-                          n.a.createElement(
-                            "span",
-                            { className: "icon" },
-                            n.a.createElement(s.a, { icon: g.b })
-                          )
                         )
                       )
                     )
@@ -454,34 +255,35 @@
             )
           );
         },
-        I = a(55),
-        S = a(15),
-        D = a(16);
-      function d() {
-        var A = Object(S.a)([
+        s = a(52),
+        g = a(28),
+        R = a(14),
+        B = a(15);
+      function N() {
+        var A = Object(R.a)([
           "\n  display: flex !important;\n  justify-content: center;\n  align-items: center;\n"
         ]);
         return (
-          (d = function() {
+          (N = function() {
             return A;
           }),
           A
         );
       }
-      function O() {
-        var A = Object(S.a)([
+      function S() {
+        var A = Object(R.a)([
           "\n  margin-top: 0.25rem;\n  margin-bottom: 0.25rem;\n"
         ]);
         return (
-          (O = function() {
+          (S = function() {
             return A;
           }),
           A
         );
       }
-      var f = D.a.p(O()),
-        C = D.a.div(d()),
-        v = function(A) {
+      var I = B.a.p(S()),
+        p = B.a.div(N()),
+        h = function(A) {
           var e = A.tag;
           return n.a.createElement(
             "span",
@@ -489,13 +291,13 @@
             e.name
           );
         },
-        w = function(A) {
+        u = function(A) {
           var e = A.project;
           return n.a.createElement(
             "div",
             { className: "timeline-item is-primary" },
             n.a.createElement(
-              C,
+              p,
               { className: "timeline-marker is-primary is-image is-32x32" },
               n.a.createElement("img", { src: e.image })
             ),
@@ -504,7 +306,7 @@
               { className: "timeline-content" },
               n.a.createElement("p", { className: "heading" }, e.date),
               n.a.createElement(
-                f,
+                I,
                 null,
                 n.a.createElement("strong", null, e.name),
                 n.a.createElement("br", null),
@@ -514,7 +316,7 @@
                 "div",
                 { className: "tags" },
                 e.tags.map(function(A) {
-                  return n.a.createElement(v, { key: A.name, tag: A });
+                  return n.a.createElement(h, { key: A.name, tag: A });
                 })
               ),
               n.a.createElement(
@@ -530,7 +332,7 @@
                       n.a.createElement(
                         "span",
                         { className: "icon is-small" },
-                        n.a.createElement(s.a, { icon: A.icon })
+                        n.a.createElement(c.a, { icon: A.icon })
                       )
                     );
                   })
@@ -539,545 +341,534 @@
             )
           );
         },
-        b = a(33),
-        L = a.n(b),
-        P = a(20),
-        G = a.n(P),
-        F = a(34),
-        M = a.n(F),
+        D = a(31),
+        d = a.n(D),
+        C = a(19),
+        O = a.n(C),
+        f = a(32),
+        w = a.n(f),
+        G = a(33),
+        L = a.n(G),
+        M = a(34),
+        Q = a.n(M),
         T = a(35),
-        Q = a.n(T),
-        y = a(36),
-        U = a.n(y),
-        V = a(37),
-        H = a.n(V),
-        k = a(38),
-        J = a.n(k),
-        K = a(39),
-        q = a.n(K),
+        y = a.n(T),
+        F = a(36),
+        v = a.n(F),
+        P = a(37),
+        U = a.n(P),
+        b = a(38),
+        H = a.n(b),
+        k = a(20),
+        K = a.n(k),
+        V = a(39),
+        Z = a.n(V),
         Y = a(40),
-        j = a.n(Y),
-        X = a(21),
-        Z = a.n(X),
-        W = a(41),
-        z = a.n(W),
-        x = a(42),
-        _ = a.n(x),
-        $ = a(43),
-        AA = a.n($),
-        eA = a(44),
-        aA = a.n(eA),
-        tA = a(45),
-        nA = a.n(tA),
-        iA = a(46),
-        rA = a.n(iA),
-        cA = a(47),
-        oA = a.n(cA),
-        lA = a(48),
+        X = a.n(Y),
+        j = a(41),
+        q = a.n(j),
+        J = a(42),
+        z = a.n(J),
+        W = a(43),
+        x = a.n(W),
+        _ = a(44),
+        $ = a.n(_),
+        AA = a(45),
+        eA = a.n(AA),
+        aA = a(46),
+        tA = a.n(aA),
+        nA = a(47),
+        iA = a.n(nA),
+        oA = a(48),
+        cA = a.n(oA),
+        rA = a(49),
+        EA = a.n(rA),
+        lA = a(50),
         mA = a.n(lA),
-        EA = a(49),
-        sA = a.n(EA),
-        gA = a(50),
-        RA = a.n(gA),
-        NA = a(51),
-        BA = a.n(NA),
-        hA = a(52),
-        pA = a.n(hA),
-        uA = a(53),
-        IA = "is-info",
-        SA = "is-warning",
-        DA = "is-dark",
-        dA = "is-info",
-        OA = {
+        sA = a(51),
+        gA = "is-info",
+        RA = "is-warning",
+        BA = "is-dark",
+        NA = "is-info",
+        SA = {
           ROLES: {
-            PASSION: { name: "Passion Project", color: DA },
-            INTERNSHIP: { name: "Internship", color: DA },
-            GIG: { name: "Gig", color: DA },
-            OPENSOURCE: { name: "Open Source Contributor", color: DA },
-            HACKATHON: { name: "Hackathon", color: DA },
-            JOB: { name: "Full Time", color: DA }
+            PASSION: { name: "Passion Project", color: BA },
+            INTERNSHIP: { name: "Internship", color: BA },
+            GIG: { name: "Gig", color: BA },
+            OPENSOURCE: { name: "Open Source Contributor", color: BA },
+            HACKATHON: { name: "Hackathon", color: BA },
+            JOB: { name: "Full Time", color: BA }
           },
           BACKEND: {
-            DJANGO: { name: "Django", color: SA },
-            DRF: { name: "Django Rest Framework", color: SA },
-            LARAVEL: { name: "Laravel", color: SA },
-            SQLITE: { name: "SQLite", color: SA },
-            POSTGRESQL: { name: "PostgreSQL", color: SA },
-            PYTHON: { name: "Python", color: SA },
-            FLASK: { name: "Flask", color: SA },
-            SWAGGER: { name: "Swagger", color: SA },
-            CELERY: { name: "Celery", color: SA },
-            MARIADB: { name: "MariaDB", color: SA },
-            MYSQL: { name: "MySQL", color: SA },
-            RQ2: { name: "RQ2", color: SA },
-            EXPRESS_JS: { name: "ExpressJs", color: SA },
-            NGINX: { name: "nginx", color: SA },
-            IPFS: { name: "IPFS", color: SA },
-            MONGO: { name: "MongoDB", color: SA }
+            DJANGO: { name: "Django", color: RA },
+            DRF: { name: "Django Rest Framework", color: RA },
+            LARAVEL: { name: "Laravel", color: RA },
+            SQLITE: { name: "SQLite", color: RA },
+            POSTGRESQL: { name: "PostgreSQL", color: RA },
+            PYTHON: { name: "Python", color: RA },
+            FLASK: { name: "Flask", color: RA },
+            SWAGGER: { name: "Swagger", color: RA },
+            CELERY: { name: "Celery", color: RA },
+            MARIADB: { name: "MariaDB", color: RA },
+            MYSQL: { name: "MySQL", color: RA },
+            RQ2: { name: "RQ2", color: RA },
+            EXPRESS_JS: { name: "ExpressJs", color: RA },
+            NGINX: { name: "nginx", color: RA },
+            IPFS: { name: "IPFS", color: RA },
+            MONGO: { name: "MongoDB", color: RA }
           },
           FRONTEND: {
-            REACT: { name: "React", color: IA },
-            ANGULAR: { name: "Angular.io", color: IA },
-            ANGULAR_MATERIAL: { name: "Material", color: IA },
-            NGRX: { name: "NGRX", color: IA },
-            LEAFLET: { name: "Leaflet", color: IA },
-            BULMA: { name: "Bulma", color: IA },
-            REDUX: { name: "Redux", color: IA },
-            BOOTSTRAP: { name: "Bootstrap", color: IA },
-            JQUERY: { name: "jQuery", color: IA }
+            REACT: { name: "React", color: gA },
+            ANGULAR: { name: "Angular.io", color: gA },
+            ANGULAR_MATERIAL: { name: "Material", color: gA },
+            NGRX: { name: "NGRX", color: gA },
+            LEAFLET: { name: "Leaflet", color: gA },
+            BULMA: { name: "Bulma", color: gA },
+            REDUX: { name: "Redux", color: gA },
+            BOOTSTRAP: { name: "Bootstrap", color: gA },
+            JQUERY: { name: "jQuery", color: gA }
           },
           OTHER: {
-            DISCORD: { name: "Discord.py", color: SA },
-            SCRAPING: { name: "Web Scraping", color: SA },
-            PRAW: { name: "PRAW", color: SA },
-            TKINTER: { name: "Tkinter", color: dA },
-            YOUTUBEDL: { name: "youtube-dl", color: dA },
-            FFMPEG: { name: "ffmpeg", color: dA },
-            PHASER: { name: "Phaser", color: dA },
-            BROWSER_EXTENSION: { name: "Browser Extension", color: dA },
-            PYGAME: { name: "Pygame", color: dA },
-            ECS: { name: "ECS", color: dA },
-            JAVA: { name: "Java", color: dA },
-            LIBGDX: { name: "libgdx", color: dA },
-            FABRICJS: { name: "FabricJS", color: dA },
-            EDUCATION: { name: "Education!", color: dA }
+            DISCORD: { name: "Discord.py", color: RA },
+            SCRAPING: { name: "Web Scraping", color: RA },
+            PRAW: { name: "PRAW", color: RA },
+            TKINTER: { name: "Tkinter", color: NA },
+            YOUTUBEDL: { name: "youtube-dl", color: NA },
+            FFMPEG: { name: "ffmpeg", color: NA },
+            PHASER: { name: "Phaser", color: NA },
+            BROWSER_EXTENSION: { name: "Browser Extension", color: NA },
+            PYGAME: { name: "Pygame", color: NA },
+            ECS: { name: "ECS", color: NA },
+            JAVA: { name: "Java", color: NA },
+            LIBGDX: { name: "libgdx", color: NA },
+            FABRICJS: { name: "FabricJS", color: NA },
+            EDUCATION: { name: "Education!", color: NA }
           },
           INFRA: { DOCKER: { name: "Docker", color: "is-danger" } }
         },
-        fA = [
+        IA = [
           {
-            image: a.n(uA).a,
+            image: a.n(sA).a,
             name: "Letters App",
             date: "Winter 2021",
             copy:
               "Write old fashioned letters to your politicians - the modern way.",
             tags: [
-              OA.ROLES.PASSION,
-              OA.BACKEND.DJANGO,
-              OA.BACKEND.DRF,
-              OA.BACKEND.POSTGRESQL,
-              OA.FRONTEND.REACT,
-              OA.FRONTEND.BOOTSTRAP,
-              OA.INFRA.DOCKER
+              SA.ROLES.PASSION,
+              SA.BACKEND.DJANGO,
+              SA.BACKEND.DRF,
+              SA.BACKEND.POSTGRESQL,
+              SA.FRONTEND.REACT,
+              SA.FRONTEND.BOOTSTRAP,
+              SA.INFRA.DOCKER
             ],
             links: []
           },
           {
-            image: pA.a,
+            image: mA.a,
             name: "Savi",
             date: "Summer 2020 - now",
             copy: "Building tools to combat the student debt crisis.",
             tags: [
-              OA.ROLES.JOB,
-              OA.BACKEND.LARAVEL,
-              OA.BACKEND.MYSQL,
-              OA.BACKEND.DJANGO,
-              OA.BACKEND.POSTGRESQL,
-              OA.FRONTEND.REACT
+              SA.ROLES.JOB,
+              SA.BACKEND.LARAVEL,
+              SA.BACKEND.MYSQL,
+              SA.BACKEND.DJANGO,
+              SA.BACKEND.POSTGRESQL,
+              SA.FRONTEND.REACT
             ],
-            links: [{ icon: g.d, url: "https://www.bysavi.com/" }]
+            links: [{ icon: r.b, url: "https://www.bysavi.com/" }]
           },
           {
-            image: RA.a,
+            image: cA.a,
             name: "Graduation",
             date: "Spring 2020",
             copy:
               "Graduated from Rutgers University with a BA in Mathematics, minor in Computer Science.",
-            tags: [OA.OTHER.EDUCATION],
+            tags: [SA.OTHER.EDUCATION],
             links: []
           },
           {
-            image: G.a,
+            image: O.a,
             name: "Dopple Redux",
             date: "Spring 2020",
             copy: "The return internship.",
             tags: [
-              OA.ROLES.INTERNSHIP,
-              OA.BACKEND.DJANGO,
-              OA.BACKEND.DRF,
-              OA.BACKEND.POSTGRESQL,
-              OA.FRONTEND.REACT,
-              OA.INFRA.DOCKER
+              SA.ROLES.INTERNSHIP,
+              SA.BACKEND.DJANGO,
+              SA.BACKEND.DRF,
+              SA.BACKEND.POSTGRESQL,
+              SA.FRONTEND.REACT,
+              SA.INFRA.DOCKER
             ],
-            links: [{ icon: g.d, url: "https://www.thedopple.com/" }]
+            links: [{ icon: r.b, url: "https://www.thedopple.com/" }]
           },
           {
-            image: BA.a,
+            image: EA.a,
             name: "Linkanizer",
             date: "Winter 2019",
             copy: "Maintain lists of links. Bookmarking to-go.",
             tags: [
-              OA.ROLES.PASSION,
-              OA.BACKEND.DJANGO,
-              OA.BACKEND.DRF,
-              OA.BACKEND.SQLITE,
-              OA.FRONTEND.ANGULAR,
-              OA.FRONTEND.BOOTSTRAP,
-              OA.FRONTEND.NGRX,
-              OA.INFRA.DOCKER
+              SA.ROLES.PASSION,
+              SA.BACKEND.DJANGO,
+              SA.BACKEND.DRF,
+              SA.BACKEND.SQLITE,
+              SA.FRONTEND.ANGULAR,
+              SA.FRONTEND.BOOTSTRAP,
+              SA.FRONTEND.NGRX,
+              SA.INFRA.DOCKER
             ],
-            links: [
-              { icon: B.a, url: "https://github.com/linkanizer" },
-              { icon: g.d, url: "https://lzr.tmk.name/" }
-            ]
+            links: [{ icon: l.a, url: "https://github.com/linkanizer" }]
           },
           {
-            image: sA.a,
+            image: iA.a,
             name: "Classical Meme Maker",
             date: "Fall 2019",
             copy: "Make memes via classical works of art.",
             tags: [
-              OA.ROLES.PASSION,
-              OA.FRONTEND.ANGULAR,
-              OA.FRONTEND.BOOTSTRAP,
-              OA.OTHER.FABRICJS
+              SA.ROLES.PASSION,
+              SA.FRONTEND.ANGULAR,
+              SA.FRONTEND.BOOTSTRAP,
+              SA.OTHER.FABRICJS
             ],
             links: [
               {
-                icon: B.a,
+                icon: l.a,
                 url: "https://github.com/tristanmkernan/classical-meme-maker"
-              },
-              { icon: g.d, url: "https://classical-meme.tmk.name/" }
+              }
             ]
           },
           {
-            image: mA.a,
+            image: tA.a,
             name: "Is the Bathroom Available?",
             date: "Summer 2019",
             copy:
               "Monitor your shared bathroom from the comfort of your chair.",
             tags: [
-              OA.ROLES.PASSION,
-              OA.BACKEND.DJANGO,
-              OA.BACKEND.DRF,
-              OA.BACKEND.SQLITE,
-              OA.FRONTEND.REACT,
-              OA.INFRA.DOCKER
+              SA.ROLES.PASSION,
+              SA.BACKEND.DJANGO,
+              SA.BACKEND.DRF,
+              SA.BACKEND.SQLITE,
+              SA.FRONTEND.REACT,
+              SA.INFRA.DOCKER
             ],
-            links: [{ icon: g.d, url: "https://bathroom.tmk.name/" }]
+            links: []
           },
           {
-            image: G.a,
+            image: O.a,
             name: "Dopple",
             date: "Summer 2019",
             copy:
               "Stitch fix for children's clothing. Taking the pain out of dressing your children.",
             tags: [
-              OA.ROLES.INTERNSHIP,
-              OA.BACKEND.DJANGO,
-              OA.BACKEND.DRF,
-              OA.BACKEND.POSTGRESQL,
-              OA.FRONTEND.REACT,
-              OA.INFRA.DOCKER
+              SA.ROLES.INTERNSHIP,
+              SA.BACKEND.DJANGO,
+              SA.BACKEND.DRF,
+              SA.BACKEND.POSTGRESQL,
+              SA.FRONTEND.REACT,
+              SA.INFRA.DOCKER
             ],
-            links: [{ icon: g.d, url: "https://www.thedopple.com/" }]
+            links: [{ icon: r.b, url: "https://www.thedopple.com/" }]
           },
           {
-            image: oA.a,
+            image: eA.a,
             name: "Discord Bots",
             date: "Summer 2019",
             copy: "Is it Wednesday, my dudes?",
             tags: [
-              OA.ROLES.PASSION,
-              OA.BACKEND.PYTHON,
-              OA.BACKEND.SQLITE,
-              OA.OTHER.DISCORD,
-              OA.OTHER.SCRAPING,
-              OA.INFRA.DOCKER
+              SA.ROLES.PASSION,
+              SA.BACKEND.PYTHON,
+              SA.BACKEND.SQLITE,
+              SA.OTHER.DISCORD,
+              SA.OTHER.SCRAPING,
+              SA.INFRA.DOCKER
             ],
             links: [
               {
-                icon: B.a,
+                icon: l.a,
                 url: "https://github.com/tristanmkernan/wednesday-discord-bot"
               },
               {
-                icon: B.a,
+                icon: l.a,
                 url: "https://github.com/tristanmkernan/meme-discord-bot"
               },
               {
-                icon: B.a,
+                icon: l.a,
                 url: "https://github.com/tristanmkernan/crypto-discord-bot"
               },
               {
-                icon: B.a,
+                icon: l.a,
                 url: "https://github.com/tristanmkernan/quote-discord-bot"
               }
             ]
           },
           {
-            image: L.a,
+            image: d.a,
             name: "Off the Beaten Path",
             date: "Spring 2019",
             copy:
               "Personalized geocaching. Rewrite of previous project by same name with more features and hosting.",
             tags: [
-              OA.ROLES.PASSION,
-              OA.BACKEND.FLASK,
-              OA.BACKEND.SWAGGER,
-              OA.BACKEND.SQLITE,
-              OA.FRONTEND.ANGULAR,
-              OA.FRONTEND.ANGULAR_MATERIAL,
-              OA.FRONTEND.LEAFLET,
-              OA.INFRA.DOCKER
+              SA.ROLES.PASSION,
+              SA.BACKEND.FLASK,
+              SA.BACKEND.SWAGGER,
+              SA.BACKEND.SQLITE,
+              SA.FRONTEND.ANGULAR,
+              SA.FRONTEND.ANGULAR_MATERIAL,
+              SA.FRONTEND.LEAFLET,
+              SA.INFRA.DOCKER
             ],
             links: [
-              { icon: B.a, url: "https://github.com/off-the-beaten-path" },
-              { icon: g.d, url: "https://otbp.tmk.name/" }
+              { icon: l.a, url: "https://github.com/off-the-beaten-path" }
             ]
           },
           {
-            image: M.a,
+            image: w.a,
             name: "Am I the Asshole? Stats",
             date: "Spring 2019",
             copy:
               "Actively parses posts from /r/AmItheAsshole and analyzes the data in order to identify if Reddit truly is the asshole.",
             tags: [
-              OA.ROLES.PASSION,
-              OA.BACKEND.FLASK,
-              OA.BACKEND.SQLITE,
-              OA.BACKEND.CELERY,
-              OA.OTHER.PRAW,
-              OA.FRONTEND.BULMA,
-              OA.INFRA.DOCKER
+              SA.ROLES.PASSION,
+              SA.BACKEND.FLASK,
+              SA.BACKEND.SQLITE,
+              SA.BACKEND.CELERY,
+              SA.OTHER.PRAW,
+              SA.FRONTEND.BULMA,
+              SA.INFRA.DOCKER
             ],
             links: [
-              { icon: B.a, url: "https://github.com/tristanmkernan/aita" },
-              { icon: g.d, url: "https://aita.tmk.name/" }
+              { icon: l.a, url: "https://github.com/tristanmkernan/aita" }
             ]
           },
           {
-            image: Q.a,
+            image: L.a,
             name: "Factions",
             date: "Spring 2019",
             copy:
               "Lead your faction to victory through diplomacy, intrigue, and war.",
             tags: [
-              OA.ROLES.GIG,
-              OA.BACKEND.FLASK,
-              OA.BACKEND.SWAGGER,
-              OA.BACKEND.MARIADB,
-              OA.FRONTEND.ANGULAR,
-              OA.FRONTEND.ANGULAR_MATERIAL,
-              OA.INFRA.DOCKER
+              SA.ROLES.GIG,
+              SA.BACKEND.FLASK,
+              SA.BACKEND.SWAGGER,
+              SA.BACKEND.MARIADB,
+              SA.FRONTEND.ANGULAR,
+              SA.FRONTEND.ANGULAR_MATERIAL,
+              SA.INFRA.DOCKER
             ],
             links: []
           },
           {
-            image: U.a,
+            image: Q.a,
             name: "TV Sleep",
             date: "Fall 2018",
             copy:
               'Brings the missing "sleep" function of television sets to your computer. In other words, it puts the computer to sleep after a delay. Perfect for late night Netflix or Twitch sessions.',
-            tags: [OA.ROLES.PASSION, OA.BACKEND.PYTHON, OA.OTHER.TKINTER],
+            tags: [SA.ROLES.PASSION, SA.BACKEND.PYTHON, SA.OTHER.TKINTER],
             links: [
-              { icon: B.a, url: "https://github.com/tristanmkernan/tvsleep" },
-              { icon: g.d, url: "https://pypi.org/project/tvsleep/" }
+              { icon: l.a, url: "https://github.com/tristanmkernan/tvsleep" },
+              { icon: r.b, url: "https://pypi.org/project/tvsleep/" }
             ]
           },
           {
-            image: H.a,
+            image: y.a,
             name: "Project Loopifi",
             date: "Fall 2018",
             copy:
               "Finds and exports smooth-looping segments within a YouTube video.",
             tags: [
-              OA.ROLES.PASSION,
-              OA.BACKEND.FLASK,
-              OA.BACKEND.MYSQL,
-              OA.BACKEND.RQ2,
-              OA.FRONTEND.BULMA,
-              OA.OTHER.YOUTUBEDL,
-              OA.OTHER.FFMPEG,
-              OA.INFRA.DOCKER
+              SA.ROLES.PASSION,
+              SA.BACKEND.FLASK,
+              SA.BACKEND.MYSQL,
+              SA.BACKEND.RQ2,
+              SA.FRONTEND.BULMA,
+              SA.OTHER.YOUTUBEDL,
+              SA.OTHER.FFMPEG,
+              SA.INFRA.DOCKER
             ],
             links: [
-              { icon: B.a, url: "https://github.com/nyavramov/loopifi" },
-              { icon: g.d, url: "https://loopifi.com/" }
+              { icon: l.a, url: "https://github.com/nyavramov/loopifi" },
+              { icon: r.b, url: "https://loopifi.com/" }
             ]
           },
           {
-            image: J.a,
+            image: v.a,
             name: "Scarlet Studies",
             date: "Summer 2018",
             copy:
               "A custom forum software for university. Communicate with other students in your courses, manage deadlines, and work collaboratively to achieve academic success.",
             tags: [
-              OA.ROLES.PASSION,
-              OA.BACKEND.FLASK,
-              OA.BACKEND.MYSQL,
-              OA.FRONTEND.ANGULAR,
-              OA.FRONTEND.REDUX,
-              OA.FRONTEND.BOOTSTRAP,
-              OA.INFRA.DOCKER
+              SA.ROLES.PASSION,
+              SA.BACKEND.FLASK,
+              SA.BACKEND.MYSQL,
+              SA.FRONTEND.ANGULAR,
+              SA.FRONTEND.REDUX,
+              SA.FRONTEND.BOOTSTRAP,
+              SA.INFRA.DOCKER
             ],
-            links: [{ icon: B.a, url: "https://github.com/ScarletStudies" }]
+            links: [{ icon: l.a, url: "https://github.com/ScarletStudies" }]
           },
           {
-            image: q.a,
+            image: U.a,
             name: "Ancient Beast",
             date: "Summer 2018",
             copy: "Browser-based, multiplayer tactical chess-like game.",
-            tags: [OA.ROLES.OPENSOURCE, OA.FRONTEND.JQUERY, OA.OTHER.PHASER],
+            tags: [SA.ROLES.OPENSOURCE, SA.FRONTEND.JQUERY, SA.OTHER.PHASER],
             links: [
               {
-                icon: B.a,
+                icon: l.a,
                 url: "https://github.com/FreezingMoon/AncientBeast"
               },
-              { icon: g.d, url: "https://ancientbeast.com/" }
+              { icon: r.b, url: "https://ancientbeast.com/" }
             ]
           },
           {
-            image: j.a,
+            image: H.a,
             name: "FileBin",
             date: "Spring 2018",
             copy:
               "Still using email to send small files quickly between your phone(s) and computer(s)? Fret no more!",
             tags: [
-              OA.ROLES.PASSION,
-              OA.BACKEND.FLASK,
-              OA.FRONTEND.BULMA,
-              OA.INFRA.DOCKER
+              SA.ROLES.PASSION,
+              SA.BACKEND.FLASK,
+              SA.FRONTEND.BULMA,
+              SA.INFRA.DOCKER
             ],
             links: [
-              { icon: B.a, url: "https://github.com/tristanmkernan/filebin" },
-              { icon: g.d, url: "https://bin.tmk.name/" }
+              { icon: l.a, url: "https://github.com/tristanmkernan/filebin" }
             ]
           },
           {
-            image: Z.a,
+            image: K.a,
             name: "HearthSoundBoard",
             date: "Fall 2017",
             copy: 'For spamming "How long can this go on?"',
-            tags: [OA.ROLES.PASSION, OA.FRONTEND.ANGULAR, OA.OTHER.SCRAPING],
+            tags: [SA.ROLES.PASSION, SA.FRONTEND.ANGULAR, SA.OTHER.SCRAPING],
             links: [
               {
-                icon: B.a,
+                icon: l.a,
                 url: "https://github.com/tristanmkernan/hearthsoundboard"
-              },
-              {
-                icon: g.d,
-                url: "https://tristanmkernan.github.io/hearthsoundboard/"
               }
             ]
           },
           {
-            image: z.a,
+            image: Z.a,
             name: "Graffiti Over",
             date: "Summer to Fall 2017",
             copy:
               "Snapchat, but re-imagined for the web. Graffiti over websites and share with your friends.",
             tags: [
-              OA.ROLES.INTERNSHIP,
-              OA.OTHER.BROWSER_EXTENSION,
-              OA.BACKEND.EXPRESS_JS,
-              OA.BACKEND.MYSQL,
-              OA.FRONTEND.ANGULAR,
-              OA.FRONTEND.BOOTSTRAP
+              SA.ROLES.INTERNSHIP,
+              SA.OTHER.BROWSER_EXTENSION,
+              SA.BACKEND.EXPRESS_JS,
+              SA.BACKEND.MYSQL,
+              SA.FRONTEND.ANGULAR,
+              SA.FRONTEND.BOOTSTRAP
             ],
             links: []
           },
           {
-            image: _.a,
+            image: X.a,
             name: "Reppy",
             date: "Summer to Fall 2017",
             copy: "Consolidated reputation management and survey platform.",
             tags: [
-              OA.ROLES.INTERNSHIP,
-              OA.FRONTEND.ANGULAR,
-              OA.FRONTEND.BOOTSTRAP,
-              OA.FRONTEND.REDUX
+              SA.ROLES.INTERNSHIP,
+              SA.FRONTEND.ANGULAR,
+              SA.FRONTEND.BOOTSTRAP,
+              SA.FRONTEND.REDUX
             ],
             links: []
           },
           {
-            image: AA.a,
+            image: q.a,
             name: "StreamChain",
             date: "Winter 2017",
             copy: "Hackathon project. Stream videos to the blockchain.",
             tags: [
-              OA.ROLES.HACKATHON,
-              OA.BACKEND.FLASK,
-              OA.BACKEND.NGINX,
-              OA.BACKEND.IPFS,
-              OA.BACKEND.MONGO
+              SA.ROLES.HACKATHON,
+              SA.BACKEND.FLASK,
+              SA.BACKEND.NGINX,
+              SA.BACKEND.IPFS,
+              SA.BACKEND.MONGO
             ],
             links: [
-              { icon: B.a, url: "https://github.com/eaglewudev/blackbox" }
+              { icon: l.a, url: "https://github.com/eaglewudev/blackbox" }
             ]
           },
           {
-            image: aA.a,
+            image: z.a,
             name: "Disaster Accountability Project",
             date: "Summer 2016 to Summer 2017",
             copy:
               "Bringing accountability to disaster aid relief organizations.",
-            tags: [OA.ROLES.INTERNSHIP, OA.BACKEND.MYSQL, OA.FRONTEND.ANGULAR],
+            tags: [SA.ROLES.INTERNSHIP, SA.BACKEND.MYSQL, SA.FRONTEND.ANGULAR],
             links: []
           },
           {
-            image: Z.a,
+            image: K.a,
             name: "DraftWithMe",
             date: "Summer 2016",
             copy:
               "Live stream your HearthStone arena drafts to your friends and the public.",
-            tags: [OA.ROLES.PASSION, OA.BACKEND.FLASK, OA.OTHER.TKINTER],
+            tags: [SA.ROLES.PASSION, SA.BACKEND.FLASK, SA.OTHER.TKINTER],
             links: [
               {
-                icon: B.a,
+                icon: l.a,
                 url: "https://github.com/tristanmkernan/draft-with-me-server"
               },
               {
-                icon: B.a,
+                icon: l.a,
                 url: "https://github.com/tristanmkernan/draft-with-me-client"
               },
               {
-                icon: B.a,
+                icon: l.a,
                 url: "https://github.com/tristanmkernan/hearthstonecarddetector"
               },
               {
-                icon: B.a,
+                icon: l.a,
                 url:
                   "https://github.com/tristanmkernan/hearthstonearenalogwatcher"
               }
             ]
           },
           {
-            image: nA.a,
+            image: x.a,
             name: "Wanderer",
             date: "Spring 2016",
             copy: "Totally configurable adventure game.",
-            tags: [OA.ROLES.PASSION, OA.OTHER.PYGAME, OA.OTHER.ECS],
+            tags: [SA.ROLES.PASSION, SA.OTHER.PYGAME, SA.OTHER.ECS],
             links: [
               {
-                icon: B.a,
+                icon: l.a,
                 url: "https://github.com/tristanmkernan/wanderer-game"
               }
             ]
           },
           {
-            image: rA.a,
+            image: $.a,
             name: "Infinite Paths",
             date: "Spring 2015",
             copy:
               "Tower defense game in which you can create your own maps to play and share.",
-            tags: [OA.ROLES.PASSION, OA.OTHER.JAVA, OA.OTHER.LIBGDX],
+            tags: [SA.ROLES.PASSION, SA.OTHER.JAVA, SA.OTHER.LIBGDX],
             links: [
               {
-                icon: B.a,
+                icon: l.a,
                 url: "https://github.com/tristanmkernan/infinite-paths"
               }
             ]
           }
         ],
-        CA = function() {
+        pA = function() {
           return n.a.createElement(
-            N.Element,
+            g.Element,
             { name: "projects-list" },
             n.a.createElement(
               "section",
               { className: "section", id: "projects-section" },
               n.a.createElement("h2", { className: "title" }, "Projects"),
-              n.a.createElement(I.a, { query: "(min-width: 1200px)" }, function(
+              n.a.createElement(s.a, { query: "(min-width: 1200px)" }, function(
                 A
               ) {
                 return n.a.createElement(
@@ -1092,8 +883,8 @@
                       "Present"
                     )
                   ),
-                  fA.map(function(A) {
-                    return n.a.createElement(w, { key: A.name, project: A });
+                  IA.map(function(A) {
+                    return n.a.createElement(u, { key: A.name, project: A });
                   }),
                   n.a.createElement(
                     "header",
@@ -1109,14 +900,13 @@
             )
           );
         },
-        vA = function() {
+        hA = function() {
           return n.a.createElement(
             "div",
             { className: "container" },
-            n.a.createElement(E, null),
-            n.a.createElement(u, null),
-            n.a.createElement(CA, null),
-            n.a.createElement(R, null)
+            n.a.createElement(m, null),
+            n.a.createElement(pA, null),
+            n.a.createElement(E, null)
           );
         };
       Boolean(
@@ -1126,13 +916,13 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      r.a.render(n.a.createElement(vA, null), document.getElementById("root")),
+      o.a.render(n.a.createElement(hA, null), document.getElementById("root")),
         "serviceWorker" in navigator &&
           navigator.serviceWorker.ready.then(function(A) {
             A.unregister();
           });
     }
   ]),
-  [[58, 1, 2]]
+  [[55, 1, 2]]
 ]);
-//# sourceMappingURL=main.fe4c20f2.chunk.js.map
+//# sourceMappingURL=main.42e2b1db.chunk.js.map

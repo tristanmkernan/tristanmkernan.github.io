@@ -1,31 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    revision: "bb45a48df910ce0981bdf9f980479333",
+    revision: "00738c110ace6f21b4d34096f597a9a9",
     url: "/index.html"
   },
   {
-    revision: "ff112e156996b8a7aa84",
+    revision: "bd75593f582001360ada",
     url: "/static/css/2.11623bd8.chunk.css"
   },
   {
-    revision: "513c36f70291353eb9b8",
+    revision: "ee241efd59af11a8fb15",
     url: "/static/css/main.3ba64763.chunk.css"
   },
   {
-    revision: "ff112e156996b8a7aa84",
-    url: "/static/js/2.568f57f9.chunk.js"
+    revision: "bd75593f582001360ada",
+    url: "/static/js/2.376e316b.chunk.js"
   },
   {
-    revision: "513c36f70291353eb9b8",
-    url: "/static/js/main.fe4c20f2.chunk.js"
+    revision: "ee241efd59af11a8fb15",
+    url: "/static/js/main.42e2b1db.chunk.js"
   },
   {
     revision: "42ac5946195a7306e2a5",
     url: "/static/js/runtime~main.a8a9905a.js"
-  },
-  {
-    revision: "48dc8acf5a8a536cd6d928e7aad020d9",
-    url: "/static/media/14-sanders-rally.48dc8acf.jpg"
   },
   {
     revision: "23a3ec54429417f98abd7e2689fe62fa",
