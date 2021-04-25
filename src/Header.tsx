@@ -34,46 +34,6 @@ const Header: React.FC = () => {
         <a className="navbar-item" href="/">
           <img src={HeaderImg} />
         </a>
-
-        <a
-          role="button"
-          className={`navbar-burger burger ${navbarOpen && "is-active"}`}
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarBasicExample"
-          onClick={() => setNavbarOpen(prev => !prev)}
-        >
-          <span aria-hidden="true" />
-          <span aria-hidden="true" />
-          <span aria-hidden="true" />
-        </a>
-      </div>
-
-      <div
-        id="navbarBasicExample"
-        className={`navbar-menu ${navbarOpen && "is-active"}`}
-      >
-        <div className="navbar-start">
-          <a className="navbar-item" href="/">
-            Home
-          </a>
-
-          <div className="navbar-item has-dropdown is-hoverable">
-            <a className="navbar-link">Quick Links</a>
-
-            <div className="navbar-dropdown">
-              {projects.map(project => (
-                <a
-                  key={project.name}
-                  className="navbar-item"
-                  href={project.url}
-                >
-                  {project.name}
-                </a>
-              ))}
-            </div>
-          </div>
-        </div>
       </div>
     </nav>
   );

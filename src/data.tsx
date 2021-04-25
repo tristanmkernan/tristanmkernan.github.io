@@ -315,10 +315,6 @@ export const PROJECTS = [
       {
         icon: faGithub,
         url: "https://github.com/linkanizer"
-      },
-      {
-        icon: faExternalLinkAlt,
-        url: "https://lzr.tmk.name/"
       }
     ]
   },
@@ -337,10 +333,6 @@ export const PROJECTS = [
       {
         icon: faGithub,
         url: "https://github.com/tristanmkernan/classical-meme-maker"
-      },
-      {
-        icon: faExternalLinkAlt,
-        url: "https://classical-meme.tmk.name/"
       }
     ]
   },
@@ -357,12 +349,7 @@ export const PROJECTS = [
       TAG_DATABASE.FRONTEND.REACT,
       TAG_DATABASE.INFRA.DOCKER
     ],
-    links: [
-      {
-        icon: faExternalLinkAlt,
-        url: "https://bathroom.tmk.name/"
-      }
-    ]
+    links: []
   },
   {
     image: DoppleImg,
@@ -437,10 +424,6 @@ export const PROJECTS = [
       {
         icon: faGithub,
         url: "https://github.com/off-the-beaten-path"
-      },
-      {
-        icon: faExternalLinkAlt,
-        url: "https://otbp.tmk.name/"
       }
     ]
   },
@@ -463,10 +446,6 @@ export const PROJECTS = [
       {
         icon: faGithub,
         url: "https://github.com/tristanmkernan/aita"
-      },
-      {
-        icon: faExternalLinkAlt,
-        url: "https://aita.tmk.name/"
       }
     ]
   },
@@ -593,10 +572,6 @@ export const PROJECTS = [
       {
         icon: faGithub,
         url: "https://github.com/tristanmkernan/filebin"
-      },
-      {
-        icon: faExternalLinkAlt,
-        url: "https://bin.tmk.name/"
       }
     ]
   },
@@ -614,10 +589,6 @@ export const PROJECTS = [
       {
         icon: faGithub,
         url: "https://github.com/tristanmkernan/hearthsoundboard"
-      },
-      {
-        icon: faExternalLinkAlt,
-        url: "https://tristanmkernan.github.io/hearthsoundboard/"
       }
     ]
   },
