@@ -87,11 +87,14 @@
     function(A, e, a) {
       A.exports = a.p + "static/media/letter.21e6b4c6.jpeg";
     },
+    function(A, e, a) {
+      A.exports = a.p + "static/media/laundry.e339c0e6.png";
+    },
     ,
     ,
     ,
     function(A, e, a) {
-      A.exports = a(77);
+      A.exports = a(78);
     },
     ,
     ,
@@ -121,7 +124,7 @@
         n = a.n(t),
         i = a(7),
         o = a.n(i),
-        c = (a(60), a(61), a(62), a(63), a(4)),
+        c = (a(61), a(62), a(63), a(64), a(4)),
         r = a(3),
         E = function() {
           return n.a.createElement(
@@ -195,14 +198,12 @@
                       n.a.createElement(
                         "p",
                         { className: "subtitle" },
-                        "Hi \ud83d\udc4b I'm a full stack software developer, currently working on technological solutions to tackle the student debt crisis."
+                        "Hi \ud83d\udc4b I'm a full stack software developer, currently working on logistics and web development."
                       ),
                       n.a.createElement(
                         "p",
                         { className: "subtitle" },
-                        "My ",
-                        n.a.createElement("em", null, "continuing"),
-                        " goal in life is to work as a software engineer at an organization that is improving the world on a grand scale."
+                        "My goal in life is to excel at full stack software engineering."
                       ),
                       n.a.createElement(
                         "div",
@@ -255,7 +256,7 @@
             )
           );
         },
-        s = a(52),
+        s = a(53),
         g = a(28),
         R = a(14),
         B = a(15);
@@ -348,15 +349,15 @@
         f = a(32),
         w = a.n(f),
         G = a(33),
-        L = a.n(G),
-        M = a(34),
+        T = a.n(G),
+        L = a(34),
+        y = a.n(L),
+        M = a(35),
         Q = a.n(M),
-        T = a(35),
-        y = a.n(T),
         F = a(36),
-        v = a.n(F),
-        P = a(37),
-        U = a.n(P),
+        P = a.n(F),
+        v = a(37),
+        U = a.n(v),
         b = a(38),
         H = a.n(b),
         k = a(20),
@@ -386,81 +387,107 @@
         lA = a(50),
         mA = a.n(lA),
         sA = a(51),
-        gA = "is-info",
-        RA = "is-warning",
-        BA = "is-dark",
-        NA = "is-info",
-        SA = {
+        gA = a.n(sA),
+        RA = a(52),
+        BA = "is-info",
+        NA = "is-warning",
+        SA = "is-danger",
+        IA = "is-dark",
+        pA = "is-primary",
+        hA = {
           ROLES: {
-            PASSION: { name: "Passion Project", color: BA },
-            INTERNSHIP: { name: "Internship", color: BA },
-            GIG: { name: "Gig", color: BA },
-            OPENSOURCE: { name: "Open Source Contributor", color: BA },
-            HACKATHON: { name: "Hackathon", color: BA },
-            JOB: { name: "Full Time", color: BA }
+            PASSION: { name: "Passion Project", color: IA },
+            INTERNSHIP: { name: "Internship", color: IA },
+            GIG: { name: "Gig", color: IA },
+            OPENSOURCE: { name: "Open Source Contributor", color: IA },
+            HACKATHON: { name: "Hackathon", color: IA },
+            JOB: { name: "Full Time", color: IA }
           },
           BACKEND: {
-            DJANGO: { name: "Django", color: RA },
-            DRF: { name: "Django Rest Framework", color: RA },
-            LARAVEL: { name: "Laravel", color: RA },
-            SQLITE: { name: "SQLite", color: RA },
-            POSTGRESQL: { name: "PostgreSQL", color: RA },
-            PYTHON: { name: "Python", color: RA },
-            FLASK: { name: "Flask", color: RA },
-            SWAGGER: { name: "Swagger", color: RA },
-            CELERY: { name: "Celery", color: RA },
-            MARIADB: { name: "MariaDB", color: RA },
-            MYSQL: { name: "MySQL", color: RA },
-            RQ2: { name: "RQ2", color: RA },
-            EXPRESS_JS: { name: "ExpressJs", color: RA },
-            NGINX: { name: "nginx", color: RA },
-            IPFS: { name: "IPFS", color: RA },
-            MONGO: { name: "MongoDB", color: RA }
+            DJANGO: { name: "Django", color: NA },
+            DRF: { name: "Django Rest Framework", color: NA },
+            LARAVEL: { name: "Laravel", color: NA },
+            SQLITE: { name: "SQLite", color: NA },
+            POSTGRESQL: { name: "PostgreSQL", color: NA },
+            PYTHON: { name: "Python", color: NA },
+            FLASK: { name: "Flask", color: NA },
+            SWAGGER: { name: "Swagger", color: NA },
+            CELERY: { name: "Celery", color: NA },
+            MARIADB: { name: "MariaDB", color: NA },
+            MYSQL: { name: "MySQL", color: NA },
+            RQ2: { name: "RQ2", color: NA },
+            EXPRESS_JS: { name: "ExpressJs", color: NA },
+            NGINX: { name: "nginx", color: NA },
+            IPFS: { name: "IPFS", color: NA },
+            MONGO: { name: "MongoDB", color: NA }
           },
           FRONTEND: {
-            REACT: { name: "React", color: gA },
-            ANGULAR: { name: "Angular.io", color: gA },
-            ANGULAR_MATERIAL: { name: "Material", color: gA },
-            NGRX: { name: "NGRX", color: gA },
-            LEAFLET: { name: "Leaflet", color: gA },
-            BULMA: { name: "Bulma", color: gA },
-            REDUX: { name: "Redux", color: gA },
-            BOOTSTRAP: { name: "Bootstrap", color: gA },
-            JQUERY: { name: "jQuery", color: gA }
+            REACT: { name: "React", color: BA },
+            ANGULAR: { name: "Angular.io", color: BA },
+            ANGULAR_MATERIAL: { name: "Material", color: BA },
+            NGRX: { name: "NGRX", color: BA },
+            LEAFLET: { name: "Leaflet", color: BA },
+            BULMA: { name: "Bulma", color: BA },
+            REDUX: { name: "Redux", color: BA },
+            BOOTSTRAP: { name: "Bootstrap", color: BA },
+            JQUERY: { name: "jQuery", color: BA }
           },
           OTHER: {
-            DISCORD: { name: "Discord.py", color: RA },
-            SCRAPING: { name: "Web Scraping", color: RA },
-            PRAW: { name: "PRAW", color: RA },
-            TKINTER: { name: "Tkinter", color: NA },
-            YOUTUBEDL: { name: "youtube-dl", color: NA },
-            FFMPEG: { name: "ffmpeg", color: NA },
-            PHASER: { name: "Phaser", color: NA },
-            BROWSER_EXTENSION: { name: "Browser Extension", color: NA },
-            PYGAME: { name: "Pygame", color: NA },
-            ECS: { name: "ECS", color: NA },
-            JAVA: { name: "Java", color: NA },
-            LIBGDX: { name: "libgdx", color: NA },
-            FABRICJS: { name: "FabricJS", color: NA },
-            EDUCATION: { name: "Education!", color: NA }
+            DISCORD: { name: "Discord.py", color: NA },
+            SCRAPING: { name: "Web Scraping", color: NA },
+            PRAW: { name: "PRAW", color: NA },
+            TKINTER: { name: "Tkinter", color: pA },
+            YOUTUBEDL: { name: "youtube-dl", color: pA },
+            FFMPEG: { name: "ffmpeg", color: pA },
+            PHASER: { name: "Phaser", color: pA },
+            BROWSER_EXTENSION: { name: "Browser Extension", color: pA },
+            PYGAME: { name: "Pygame", color: pA },
+            ECS: { name: "ECS", color: pA },
+            JAVA: { name: "Java", color: pA },
+            LIBGDX: { name: "libgdx", color: pA },
+            FABRICJS: { name: "FabricJS", color: pA },
+            EDUCATION: { name: "Education!", color: pA },
+            PROPHET: { name: "Prophet", color: pA },
+            ORTOOLS: { name: "OR Tools", color: pA }
           },
-          INFRA: { DOCKER: { name: "Docker", color: "is-danger" } }
+          INFRA: {
+            DOCKER: { name: "Docker", color: SA },
+            HEROKU: { name: "Heroku", color: SA }
+          }
         },
-        IA = [
+        uA = [
           {
-            image: a.n(sA).a,
+            image: a.n(RA).a,
+            name: "Rinse",
+            date: "Summer 2021 - now",
+            copy:
+              "Solving the 'half the laundry machines are broken, the other half in usage' problem.",
+            tags: [
+              hA.ROLES.JOB,
+              hA.BACKEND.DJANGO,
+              hA.BACKEND.POSTGRESQL,
+              hA.BACKEND.CELERY,
+              hA.FRONTEND.REACT,
+              hA.OTHER.ORTOOLS,
+              hA.OTHER.PROPHET,
+              hA.INFRA.HEROKU
+            ],
+            links: [{ icon: r.b, url: "https://www.rinse.com/" }]
+          },
+          {
+            image: gA.a,
             name: "Letters App",
             date: "Winter 2021",
             copy:
               "Write old fashioned letters to your politicians - the modern way.",
             tags: [
-              SA.ROLES.PASSION,
-              SA.BACKEND.DJANGO,
-              SA.BACKEND.DRF,
-              SA.BACKEND.POSTGRESQL,
-              SA.FRONTEND.REACT,
-              SA.FRONTEND.BOOTSTRAP,
-              SA.INFRA.DOCKER
+              hA.ROLES.PASSION,
+              hA.BACKEND.DJANGO,
+              hA.BACKEND.DRF,
+              hA.BACKEND.POSTGRESQL,
+              hA.FRONTEND.REACT,
+              hA.FRONTEND.BOOTSTRAP,
+              hA.INFRA.DOCKER
             ],
             links: []
           },
@@ -470,12 +497,12 @@
             date: "Summer 2020 - now",
             copy: "Building tools to combat the student debt crisis.",
             tags: [
-              SA.ROLES.JOB,
-              SA.BACKEND.LARAVEL,
-              SA.BACKEND.MYSQL,
-              SA.BACKEND.DJANGO,
-              SA.BACKEND.POSTGRESQL,
-              SA.FRONTEND.REACT
+              hA.ROLES.JOB,
+              hA.BACKEND.LARAVEL,
+              hA.BACKEND.MYSQL,
+              hA.BACKEND.DJANGO,
+              hA.BACKEND.POSTGRESQL,
+              hA.FRONTEND.REACT
             ],
             links: [{ icon: r.b, url: "https://www.bysavi.com/" }]
           },
@@ -485,7 +512,7 @@
             date: "Spring 2020",
             copy:
               "Graduated from Rutgers University with a BA in Mathematics, minor in Computer Science.",
-            tags: [SA.OTHER.EDUCATION],
+            tags: [hA.OTHER.EDUCATION],
             links: []
           },
           {
@@ -494,12 +521,12 @@
             date: "Spring 2020",
             copy: "The return internship.",
             tags: [
-              SA.ROLES.INTERNSHIP,
-              SA.BACKEND.DJANGO,
-              SA.BACKEND.DRF,
-              SA.BACKEND.POSTGRESQL,
-              SA.FRONTEND.REACT,
-              SA.INFRA.DOCKER
+              hA.ROLES.INTERNSHIP,
+              hA.BACKEND.DJANGO,
+              hA.BACKEND.DRF,
+              hA.BACKEND.POSTGRESQL,
+              hA.FRONTEND.REACT,
+              hA.INFRA.DOCKER
             ],
             links: [{ icon: r.b, url: "https://www.thedopple.com/" }]
           },
@@ -509,14 +536,14 @@
             date: "Winter 2019",
             copy: "Maintain lists of links. Bookmarking to-go.",
             tags: [
-              SA.ROLES.PASSION,
-              SA.BACKEND.DJANGO,
-              SA.BACKEND.DRF,
-              SA.BACKEND.SQLITE,
-              SA.FRONTEND.ANGULAR,
-              SA.FRONTEND.BOOTSTRAP,
-              SA.FRONTEND.NGRX,
-              SA.INFRA.DOCKER
+              hA.ROLES.PASSION,
+              hA.BACKEND.DJANGO,
+              hA.BACKEND.DRF,
+              hA.BACKEND.SQLITE,
+              hA.FRONTEND.ANGULAR,
+              hA.FRONTEND.BOOTSTRAP,
+              hA.FRONTEND.NGRX,
+              hA.INFRA.DOCKER
             ],
             links: [{ icon: l.a, url: "https://github.com/linkanizer" }]
           },
@@ -526,10 +553,10 @@
             date: "Fall 2019",
             copy: "Make memes via classical works of art.",
             tags: [
-              SA.ROLES.PASSION,
-              SA.FRONTEND.ANGULAR,
-              SA.FRONTEND.BOOTSTRAP,
-              SA.OTHER.FABRICJS
+              hA.ROLES.PASSION,
+              hA.FRONTEND.ANGULAR,
+              hA.FRONTEND.BOOTSTRAP,
+              hA.OTHER.FABRICJS
             ],
             links: [
               {
@@ -545,12 +572,12 @@
             copy:
               "Monitor your shared bathroom from the comfort of your chair.",
             tags: [
-              SA.ROLES.PASSION,
-              SA.BACKEND.DJANGO,
-              SA.BACKEND.DRF,
-              SA.BACKEND.SQLITE,
-              SA.FRONTEND.REACT,
-              SA.INFRA.DOCKER
+              hA.ROLES.PASSION,
+              hA.BACKEND.DJANGO,
+              hA.BACKEND.DRF,
+              hA.BACKEND.SQLITE,
+              hA.FRONTEND.REACT,
+              hA.INFRA.DOCKER
             ],
             links: []
           },
@@ -561,12 +588,12 @@
             copy:
               "Stitch fix for children's clothing. Taking the pain out of dressing your children.",
             tags: [
-              SA.ROLES.INTERNSHIP,
-              SA.BACKEND.DJANGO,
-              SA.BACKEND.DRF,
-              SA.BACKEND.POSTGRESQL,
-              SA.FRONTEND.REACT,
-              SA.INFRA.DOCKER
+              hA.ROLES.INTERNSHIP,
+              hA.BACKEND.DJANGO,
+              hA.BACKEND.DRF,
+              hA.BACKEND.POSTGRESQL,
+              hA.FRONTEND.REACT,
+              hA.INFRA.DOCKER
             ],
             links: [{ icon: r.b, url: "https://www.thedopple.com/" }]
           },
@@ -576,12 +603,12 @@
             date: "Summer 2019",
             copy: "Is it Wednesday, my dudes?",
             tags: [
-              SA.ROLES.PASSION,
-              SA.BACKEND.PYTHON,
-              SA.BACKEND.SQLITE,
-              SA.OTHER.DISCORD,
-              SA.OTHER.SCRAPING,
-              SA.INFRA.DOCKER
+              hA.ROLES.PASSION,
+              hA.BACKEND.PYTHON,
+              hA.BACKEND.SQLITE,
+              hA.OTHER.DISCORD,
+              hA.OTHER.SCRAPING,
+              hA.INFRA.DOCKER
             ],
             links: [
               {
@@ -609,14 +636,14 @@
             copy:
               "Personalized geocaching. Rewrite of previous project by same name with more features and hosting.",
             tags: [
-              SA.ROLES.PASSION,
-              SA.BACKEND.FLASK,
-              SA.BACKEND.SWAGGER,
-              SA.BACKEND.SQLITE,
-              SA.FRONTEND.ANGULAR,
-              SA.FRONTEND.ANGULAR_MATERIAL,
-              SA.FRONTEND.LEAFLET,
-              SA.INFRA.DOCKER
+              hA.ROLES.PASSION,
+              hA.BACKEND.FLASK,
+              hA.BACKEND.SWAGGER,
+              hA.BACKEND.SQLITE,
+              hA.FRONTEND.ANGULAR,
+              hA.FRONTEND.ANGULAR_MATERIAL,
+              hA.FRONTEND.LEAFLET,
+              hA.INFRA.DOCKER
             ],
             links: [
               { icon: l.a, url: "https://github.com/off-the-beaten-path" }
@@ -629,62 +656,62 @@
             copy:
               "Actively parses posts from /r/AmItheAsshole and analyzes the data in order to identify if Reddit truly is the asshole.",
             tags: [
-              SA.ROLES.PASSION,
-              SA.BACKEND.FLASK,
-              SA.BACKEND.SQLITE,
-              SA.BACKEND.CELERY,
-              SA.OTHER.PRAW,
-              SA.FRONTEND.BULMA,
-              SA.INFRA.DOCKER
+              hA.ROLES.PASSION,
+              hA.BACKEND.FLASK,
+              hA.BACKEND.SQLITE,
+              hA.BACKEND.CELERY,
+              hA.OTHER.PRAW,
+              hA.FRONTEND.BULMA,
+              hA.INFRA.DOCKER
             ],
             links: [
               { icon: l.a, url: "https://github.com/tristanmkernan/aita" }
             ]
           },
           {
-            image: L.a,
+            image: T.a,
             name: "Factions",
             date: "Spring 2019",
             copy:
               "Lead your faction to victory through diplomacy, intrigue, and war.",
             tags: [
-              SA.ROLES.GIG,
-              SA.BACKEND.FLASK,
-              SA.BACKEND.SWAGGER,
-              SA.BACKEND.MARIADB,
-              SA.FRONTEND.ANGULAR,
-              SA.FRONTEND.ANGULAR_MATERIAL,
-              SA.INFRA.DOCKER
+              hA.ROLES.GIG,
+              hA.BACKEND.FLASK,
+              hA.BACKEND.SWAGGER,
+              hA.BACKEND.MARIADB,
+              hA.FRONTEND.ANGULAR,
+              hA.FRONTEND.ANGULAR_MATERIAL,
+              hA.INFRA.DOCKER
             ],
             links: []
           },
           {
-            image: Q.a,
+            image: y.a,
             name: "TV Sleep",
             date: "Fall 2018",
             copy:
               'Brings the missing "sleep" function of television sets to your computer. In other words, it puts the computer to sleep after a delay. Perfect for late night Netflix or Twitch sessions.',
-            tags: [SA.ROLES.PASSION, SA.BACKEND.PYTHON, SA.OTHER.TKINTER],
+            tags: [hA.ROLES.PASSION, hA.BACKEND.PYTHON, hA.OTHER.TKINTER],
             links: [
               { icon: l.a, url: "https://github.com/tristanmkernan/tvsleep" },
               { icon: r.b, url: "https://pypi.org/project/tvsleep/" }
             ]
           },
           {
-            image: y.a,
+            image: Q.a,
             name: "Project Loopifi",
             date: "Fall 2018",
             copy:
               "Finds and exports smooth-looping segments within a YouTube video.",
             tags: [
-              SA.ROLES.PASSION,
-              SA.BACKEND.FLASK,
-              SA.BACKEND.MYSQL,
-              SA.BACKEND.RQ2,
-              SA.FRONTEND.BULMA,
-              SA.OTHER.YOUTUBEDL,
-              SA.OTHER.FFMPEG,
-              SA.INFRA.DOCKER
+              hA.ROLES.PASSION,
+              hA.BACKEND.FLASK,
+              hA.BACKEND.MYSQL,
+              hA.BACKEND.RQ2,
+              hA.FRONTEND.BULMA,
+              hA.OTHER.YOUTUBEDL,
+              hA.OTHER.FFMPEG,
+              hA.INFRA.DOCKER
             ],
             links: [
               { icon: l.a, url: "https://github.com/nyavramov/loopifi" },
@@ -692,19 +719,19 @@
             ]
           },
           {
-            image: v.a,
+            image: P.a,
             name: "Scarlet Studies",
             date: "Summer 2018",
             copy:
               "A custom forum software for university. Communicate with other students in your courses, manage deadlines, and work collaboratively to achieve academic success.",
             tags: [
-              SA.ROLES.PASSION,
-              SA.BACKEND.FLASK,
-              SA.BACKEND.MYSQL,
-              SA.FRONTEND.ANGULAR,
-              SA.FRONTEND.REDUX,
-              SA.FRONTEND.BOOTSTRAP,
-              SA.INFRA.DOCKER
+              hA.ROLES.PASSION,
+              hA.BACKEND.FLASK,
+              hA.BACKEND.MYSQL,
+              hA.FRONTEND.ANGULAR,
+              hA.FRONTEND.REDUX,
+              hA.FRONTEND.BOOTSTRAP,
+              hA.INFRA.DOCKER
             ],
             links: [{ icon: l.a, url: "https://github.com/ScarletStudies" }]
           },
@@ -713,7 +740,7 @@
             name: "Ancient Beast",
             date: "Summer 2018",
             copy: "Browser-based, multiplayer tactical chess-like game.",
-            tags: [SA.ROLES.OPENSOURCE, SA.FRONTEND.JQUERY, SA.OTHER.PHASER],
+            tags: [hA.ROLES.OPENSOURCE, hA.FRONTEND.JQUERY, hA.OTHER.PHASER],
             links: [
               {
                 icon: l.a,
@@ -729,10 +756,10 @@
             copy:
               "Still using email to send small files quickly between your phone(s) and computer(s)? Fret no more!",
             tags: [
-              SA.ROLES.PASSION,
-              SA.BACKEND.FLASK,
-              SA.FRONTEND.BULMA,
-              SA.INFRA.DOCKER
+              hA.ROLES.PASSION,
+              hA.BACKEND.FLASK,
+              hA.FRONTEND.BULMA,
+              hA.INFRA.DOCKER
             ],
             links: [
               { icon: l.a, url: "https://github.com/tristanmkernan/filebin" }
@@ -743,7 +770,7 @@
             name: "HearthSoundBoard",
             date: "Fall 2017",
             copy: 'For spamming "How long can this go on?"',
-            tags: [SA.ROLES.PASSION, SA.FRONTEND.ANGULAR, SA.OTHER.SCRAPING],
+            tags: [hA.ROLES.PASSION, hA.FRONTEND.ANGULAR, hA.OTHER.SCRAPING],
             links: [
               {
                 icon: l.a,
@@ -758,12 +785,12 @@
             copy:
               "Snapchat, but re-imagined for the web. Graffiti over websites and share with your friends.",
             tags: [
-              SA.ROLES.INTERNSHIP,
-              SA.OTHER.BROWSER_EXTENSION,
-              SA.BACKEND.EXPRESS_JS,
-              SA.BACKEND.MYSQL,
-              SA.FRONTEND.ANGULAR,
-              SA.FRONTEND.BOOTSTRAP
+              hA.ROLES.INTERNSHIP,
+              hA.OTHER.BROWSER_EXTENSION,
+              hA.BACKEND.EXPRESS_JS,
+              hA.BACKEND.MYSQL,
+              hA.FRONTEND.ANGULAR,
+              hA.FRONTEND.BOOTSTRAP
             ],
             links: []
           },
@@ -773,10 +800,10 @@
             date: "Summer to Fall 2017",
             copy: "Consolidated reputation management and survey platform.",
             tags: [
-              SA.ROLES.INTERNSHIP,
-              SA.FRONTEND.ANGULAR,
-              SA.FRONTEND.BOOTSTRAP,
-              SA.FRONTEND.REDUX
+              hA.ROLES.INTERNSHIP,
+              hA.FRONTEND.ANGULAR,
+              hA.FRONTEND.BOOTSTRAP,
+              hA.FRONTEND.REDUX
             ],
             links: []
           },
@@ -786,11 +813,11 @@
             date: "Winter 2017",
             copy: "Hackathon project. Stream videos to the blockchain.",
             tags: [
-              SA.ROLES.HACKATHON,
-              SA.BACKEND.FLASK,
-              SA.BACKEND.NGINX,
-              SA.BACKEND.IPFS,
-              SA.BACKEND.MONGO
+              hA.ROLES.HACKATHON,
+              hA.BACKEND.FLASK,
+              hA.BACKEND.NGINX,
+              hA.BACKEND.IPFS,
+              hA.BACKEND.MONGO
             ],
             links: [
               { icon: l.a, url: "https://github.com/eaglewudev/blackbox" }
@@ -802,7 +829,7 @@
             date: "Summer 2016 to Summer 2017",
             copy:
               "Bringing accountability to disaster aid relief organizations.",
-            tags: [SA.ROLES.INTERNSHIP, SA.BACKEND.MYSQL, SA.FRONTEND.ANGULAR],
+            tags: [hA.ROLES.INTERNSHIP, hA.BACKEND.MYSQL, hA.FRONTEND.ANGULAR],
             links: []
           },
           {
@@ -811,7 +838,7 @@
             date: "Summer 2016",
             copy:
               "Live stream your HearthStone arena drafts to your friends and the public.",
-            tags: [SA.ROLES.PASSION, SA.BACKEND.FLASK, SA.OTHER.TKINTER],
+            tags: [hA.ROLES.PASSION, hA.BACKEND.FLASK, hA.OTHER.TKINTER],
             links: [
               {
                 icon: l.a,
@@ -837,7 +864,7 @@
             name: "Wanderer",
             date: "Spring 2016",
             copy: "Totally configurable adventure game.",
-            tags: [SA.ROLES.PASSION, SA.OTHER.PYGAME, SA.OTHER.ECS],
+            tags: [hA.ROLES.PASSION, hA.OTHER.PYGAME, hA.OTHER.ECS],
             links: [
               {
                 icon: l.a,
@@ -851,7 +878,7 @@
             date: "Spring 2015",
             copy:
               "Tower defense game in which you can create your own maps to play and share.",
-            tags: [SA.ROLES.PASSION, SA.OTHER.JAVA, SA.OTHER.LIBGDX],
+            tags: [hA.ROLES.PASSION, hA.OTHER.JAVA, hA.OTHER.LIBGDX],
             links: [
               {
                 icon: l.a,
@@ -860,7 +887,7 @@
             ]
           }
         ],
-        pA = function() {
+        DA = function() {
           return n.a.createElement(
             g.Element,
             { name: "projects-list" },
@@ -883,7 +910,7 @@
                       "Present"
                     )
                   ),
-                  IA.map(function(A) {
+                  uA.map(function(A) {
                     return n.a.createElement(u, { key: A.name, project: A });
                   }),
                   n.a.createElement(
@@ -900,12 +927,12 @@
             )
           );
         },
-        hA = function() {
+        dA = function() {
           return n.a.createElement(
             "div",
             { className: "container" },
             n.a.createElement(m, null),
-            n.a.createElement(pA, null),
+            n.a.createElement(DA, null),
             n.a.createElement(E, null)
           );
         };
@@ -916,13 +943,13 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      o.a.render(n.a.createElement(hA, null), document.getElementById("root")),
+      o.a.render(n.a.createElement(dA, null), document.getElementById("root")),
         "serviceWorker" in navigator &&
           navigator.serviceWorker.ready.then(function(A) {
             A.unregister();
           });
     }
   ]),
-  [[55, 1, 2]]
+  [[56, 1, 2]]
 ]);
-//# sourceMappingURL=main.42e2b1db.chunk.js.map
+//# sourceMappingURL=main.fbc7ebc3.chunk.js.map
