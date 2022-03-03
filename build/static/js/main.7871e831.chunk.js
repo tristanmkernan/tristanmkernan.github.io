@@ -494,7 +494,7 @@
           {
             image: mA.a,
             name: "Savi",
-            date: "Summer 2020 - now",
+            date: "Summer 2020 - Summer 2021",
             copy: "Building tools to combat the student debt crisis.",
             tags: [
               hA.ROLES.JOB,
@@ -952,4 +952,4 @@
   ]),
   [[56, 1, 2]]
 ]);
-//# sourceMappingURL=main.fbc7ebc3.chunk.js.map
+//# sourceMappingURL=main.7871e831.chunk.js.map
