@@ -24,13 +24,14 @@ import GraduationImg from "./assets/img/graduation.png";
 import ChainImg from "./assets/img/chain.jpg";
 import SaviImg from "./assets/img/savi.png";
 import LettersImg from "./assets/img/letter.jpeg";
+import LaundryImg from "./assets/img/laundry.png";
 
 const TAG_TYPE_TO_COLOR = {
   FRONTEND: "is-info",
   BACKEND: "is-warning",
   INFRA: "is-danger",
   ROLE: "is-dark",
-  OTHER: "is-info"
+  OTHER: "is-primary"
 };
 
 const TAG_DATABASE = {
@@ -220,17 +221,52 @@ const TAG_DATABASE = {
     EDUCATION: {
       name: "Education!",
       color: TAG_TYPE_TO_COLOR.OTHER
+    },
+    PROPHET: {
+      name: "Prophet",
+      color: TAG_TYPE_TO_COLOR.OTHER
+    },
+    ORTOOLS: {
+      name: "OR Tools",
+      color: TAG_TYPE_TO_COLOR.OTHER
     }
   },
   INFRA: {
     DOCKER: {
       name: "Docker",
       color: TAG_TYPE_TO_COLOR.INFRA
+    },
+    HEROKU: {
+      name: "Heroku",
+      color: TAG_TYPE_TO_COLOR.INFRA
     }
   }
 };
 
 export const PROJECTS = [
+  {
+    image: LaundryImg,
+    name: "Rinse",
+    date: "Summer 2021 - now",
+    copy:
+      "Solving the 'half the laundry machines are broken, the other half in usage' problem.",
+    tags: [
+      TAG_DATABASE.ROLES.JOB,
+      TAG_DATABASE.BACKEND.DJANGO,
+      TAG_DATABASE.BACKEND.POSTGRESQL,
+      TAG_DATABASE.BACKEND.CELERY,
+      TAG_DATABASE.FRONTEND.REACT,
+      TAG_DATABASE.OTHER.ORTOOLS,
+      TAG_DATABASE.OTHER.PROPHET,
+      TAG_DATABASE.INFRA.HEROKU
+    ],
+    links: [
+      {
+        icon: faExternalLinkAlt,
+        url: "https://www.rinse.com/"
+      }
+    ]
+  },
   {
     image: LettersImg,
     name: "Letters App",

@@ -22,13 +22,12 @@ const About: React.FC = () => {
                 <p className="title">About Me</p>
                 <p className="subtitle">
                   Hi 👋 I'm a full stack software developer, currently working
-                  on technological solutions to tackle the student debt crisis.
+                  on logistics and web development.
                 </p>
 
                 <p className="subtitle">
-                  My <em>continuing</em> goal in life is to work as a software
-                  engineer at an organization that is improving the world on a
-                  grand scale.
+                  My goal in life is to excel at full stack software
+                  engineering.
                 </p>
 
                 <div className="buttons">
