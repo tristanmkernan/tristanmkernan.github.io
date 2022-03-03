@@ -286,7 +286,7 @@ export const PROJECTS = [
   {
     image: SaviImg,
     name: "Savi",
-    date: "Summer 2020 - now",
+    date: "Summer 2020 - Summer 2021",
     copy: "Building tools to combat the student debt crisis.",
     tags: [
       TAG_DATABASE.ROLES.JOB,
