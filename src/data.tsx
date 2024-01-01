@@ -25,6 +25,7 @@ import ChainImg from "./assets/img/chain.jpg";
 import SaviImg from "./assets/img/savi.png";
 import LettersImg from "./assets/img/letter.jpeg";
 import LaundryImg from "./assets/img/laundry.png";
+import OutreachImg from "./assets/img/outreach.png";
 
 const TAG_TYPE_TO_COLOR = {
   FRONTEND: "is-info",
@@ -163,6 +164,10 @@ const TAG_DATABASE = {
     JQUERY: {
       name: "jQuery",
       color: TAG_TYPE_TO_COLOR.FRONTEND
+    },
+    HTMX: {
+      name: "HTMX",
+      color: TAG_TYPE_TO_COLOR.FRONTEND
     }
   },
   OTHER: {
@@ -244,6 +249,39 @@ const TAG_DATABASE = {
 };
 
 export const PROJECTS = [
+  {
+    image: OutreachImg,
+    name: "Outreach",
+    date: "Winter 2023",
+    copy: "An FRM - friendship relationship management - tool.",
+    tags: [
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.BACKEND.DJANGO,
+      TAG_DATABASE.BACKEND.CELERY,
+      TAG_DATABASE.BACKEND.SQLITE,
+      TAG_DATABASE.FRONTEND.HTMX,
+      TAG_DATABASE.FRONTEND.BOOTSTRAP,
+      TAG_DATABASE.INFRA.DOCKER
+    ],
+    links: []
+  },
+  {
+    image: PyGameImg,
+    name: "Tower Defense Prototype",
+    date: "Spring 2023",
+    copy: "A tower defense game prototype.",
+    tags: [
+      TAG_DATABASE.ROLES.PASSION,
+      TAG_DATABASE.OTHER.PYGAME,
+      TAG_DATABASE.OTHER.ECS
+    ],
+    links: [
+      {
+        icon: faGithub,
+        url: "https://github.com/tristanmkernan/tdp"
+      }
+    ]
+  },
   {
     image: LaundryImg,
     name: "Rinse",
