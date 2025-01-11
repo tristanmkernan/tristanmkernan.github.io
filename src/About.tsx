@@ -1,15 +1,11 @@
 import React from "react";
-import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faIdCard,
   faPaperPlane,
-  faChevronRight,
-  faChevronDown
+  faRss
 } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-
-import BannerImage from "./assets/img/14-sanders-rally.jpg";
 
 const About: React.FC = () => {
   return (
@@ -39,6 +35,15 @@ const About: React.FC = () => {
                       <FontAwesomeIcon icon={faGithub} />
                     </span>
                     <span>Github</span>
+                  </a>
+                  <a
+                    className="button is-light"
+                    href="https://blog.tmk.name/"
+                  >
+                    <span className="icon">
+                      <FontAwesomeIcon icon={faRss} />
+                    </span>
+                    <span>Blog</span>
                   </a>
                   <a
                     className="button is-light"
