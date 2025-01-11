@@ -1,6 +1,5 @@
 import React from "react";
 import Media from "react-media";
-import { Element } from "react-scroll";
 
 import ProjectListItem from "./ProjectListItem";
 
@@ -8,7 +7,6 @@ import { PROJECTS } from "./data";
 
 const ProjectList: React.FC = () => {
   return (
-    <Element name="projects-list">
       <section className="section" id="projects-section">
         <h2 className="title">Projects</h2>
 
@@ -28,7 +26,6 @@ const ProjectList: React.FC = () => {
           )}
         </Media>
       </section>
-    </Element>
   );
 };
 
